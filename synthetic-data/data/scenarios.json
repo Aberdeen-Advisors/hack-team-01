@@ -1,0 +1,304 @@
+{
+  "generated_for": "Aberdeen Advisors hack-team-01",
+  "portfolio_total_budget": 95350000,
+  "portfolio_total_capex": 33352000,
+  "note": "These are scenario INPUTS only. No results are pre-computed — the tool being built is expected to work out the resulting sequence, cost profile, resource feasibility and benefit curve for each one, then compare them side by side.",
+  "scenarios": [
+    {
+      "scenario_id": "SC-01",
+      "name": "Board baseline",
+      "description": "The portfolio exactly as it is currently planned and funded. This is the comparison point the board already believes in, and the version the incoming transformation leader inherited.",
+      "constraints": {
+        "budget_cap_usd": 95350000,
+        "capex_cap_usd": 33352000,
+        "peak_fte_cap": null,
+        "mandatory_initiatives": [
+          {
+            "initiative_id": "INIT-004",
+            "name": "Identity & Access Management Modernisation",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-016",
+            "name": "Quality Management System Harmonisation",
+            "function": "Operations"
+          },
+          {
+            "initiative_id": "INIT-017",
+            "name": "Health & Safety Digital Reporting",
+            "function": "Operations"
+          },
+          {
+            "initiative_id": "INIT-056",
+            "name": "SOX Control Remediation",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-057",
+            "name": "Data Privacy Programme (GDPR/CCPA)",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-058",
+            "name": "Cyber Security Uplift - Endpoint & SIEM",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-059",
+            "name": "Data Governance & Quality Framework",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-060",
+            "name": "Third-Party & Supplier Risk Management",
+            "function": "Risk & Compliance"
+          }
+        ],
+        "deferred_initiatives": [],
+        "must_finish_by": "2028-12-31",
+        "allow_resequencing": false
+      },
+      "expected_qualitative_outcome": "Shows the problem rather than solving it: three pinch-point roles are over-allocated across 2026Q4-2027Q1, several hard cross-function dependencies are violated, and benefit realisation is back-loaded into 2028. Expect the tool to surface an undeliverable plan."
+    },
+    {
+      "scenario_id": "SC-02",
+      "name": "Cash-constrained (-25% capex)",
+      "description": "The board removes a quarter of the capital envelope in response to a weaker trading outlook. Regulatory work is protected; everything else competes for what is left. Opex is untouched but headcount is frozen at current levels.",
+      "constraints": {
+        "budget_cap_usd": 78187000,
+        "capex_cap_usd": 25014000,
+        "peak_fte_cap": 85,
+        "mandatory_initiatives": [
+          {
+            "initiative_id": "INIT-002",
+            "name": "ERP Finance Module Consolidation",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-003",
+            "name": "API Gateway & Integration Layer",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-004",
+            "name": "Identity & Access Management Modernisation",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-005",
+            "name": "Cloud Migration Wave 1 - Non-Production",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-006",
+            "name": "Cloud Migration Wave 2 - Production Workloads",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-007",
+            "name": "CRM Platform Replacement",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-016",
+            "name": "Quality Management System Harmonisation",
+            "function": "Operations"
+          },
+          {
+            "initiative_id": "INIT-017",
+            "name": "Health & Safety Digital Reporting",
+            "function": "Operations"
+          },
+          {
+            "initiative_id": "INIT-056",
+            "name": "SOX Control Remediation",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-057",
+            "name": "Data Privacy Programme (GDPR/CCPA)",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-058",
+            "name": "Cyber Security Uplift - Endpoint & SIEM",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-059",
+            "name": "Data Governance & Quality Framework",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-060",
+            "name": "Third-Party & Supplier Risk Management",
+            "function": "Risk & Compliance"
+          }
+        ],
+        "deferred_initiatives": [
+          {
+            "initiative_id": "INIT-033",
+            "name": "Group Planning & Forecasting Rebuild (FP&A)",
+            "function": "Finance"
+          },
+          {
+            "initiative_id": "INIT-047",
+            "name": "Subscription Maintenance Offering",
+            "function": "Growth / Commercial"
+          },
+          {
+            "initiative_id": "INIT-046",
+            "name": "Aftermarket Services Proposition",
+            "function": "Growth / Commercial"
+          },
+          {
+            "initiative_id": "INIT-037",
+            "name": "Manager Capability Programme",
+            "function": "HR / People"
+          },
+          {
+            "initiative_id": "INIT-024",
+            "name": "Warehouse Automation Pilot",
+            "function": "Supply Chain"
+          },
+          {
+            "initiative_id": "INIT-010",
+            "name": "Field Mobility App Rollout",
+            "function": "Technology"
+          }
+        ],
+        "must_finish_by": "2029-06-30",
+        "allow_resequencing": true
+      },
+      "expected_qualitative_outcome": "Capital-heavy Technology and Supply Chain initiatives stretch right or drop out, which in turn delays every dependent Finance and Operations initiative. Total benefit falls less than total spend, so return on investment improves while absolute value and delivery pace both worsen. Watch for enablers being cut and silently breaking their dependents."
+    },
+    {
+      "scenario_id": "SC-03",
+      "name": "Speed to value (front-load quick wins)",
+      "description": "Same money, different order. Cheap, fast, high-confidence initiatives are pulled forward to bank visible savings inside the first twelve months and buy the new leader credibility with the board.",
+      "constraints": {
+        "budget_cap_usd": 95350000,
+        "capex_cap_usd": 33352000,
+        "peak_fte_cap": 95,
+        "mandatory_initiatives": [
+          {
+            "initiative_id": "INIT-004",
+            "name": "Identity & Access Management Modernisation",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-009",
+            "name": "Legacy Mainframe Decommission - Order Mgmt",
+            "function": "Technology"
+          },
+          {
+            "initiative_id": "INIT-016",
+            "name": "Quality Management System Harmonisation",
+            "function": "Operations"
+          },
+          {
+            "initiative_id": "INIT-017",
+            "name": "Health & Safety Digital Reporting",
+            "function": "Operations"
+          },
+          {
+            "initiative_id": "INIT-031",
+            "name": "Finance Shared Services Centre Stand-Up",
+            "function": "Finance"
+          },
+          {
+            "initiative_id": "INIT-035",
+            "name": "HRIS Consolidation to Workday",
+            "function": "HR / People"
+          },
+          {
+            "initiative_id": "INIT-038",
+            "name": "Shared Services HR Operating Model",
+            "function": "HR / People"
+          },
+          {
+            "initiative_id": "INIT-042",
+            "name": "Customer Segmentation & Pricing Analytics",
+            "function": "Growth / Commercial"
+          },
+          {
+            "initiative_id": "INIT-043",
+            "name": "E-Commerce Channel Launch",
+            "function": "Growth / Commercial"
+          },
+          {
+            "initiative_id": "INIT-052",
+            "name": "IT Application Portfolio Rationalisation",
+            "function": "Cost Reduction"
+          },
+          {
+            "initiative_id": "INIT-054",
+            "name": "Energy Efficiency & Utilities Programme",
+            "function": "Cost Reduction"
+          },
+          {
+            "initiative_id": "INIT-056",
+            "name": "SOX Control Remediation",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-057",
+            "name": "Data Privacy Programme (GDPR/CCPA)",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-058",
+            "name": "Cyber Security Uplift - Endpoint & SIEM",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-059",
+            "name": "Data Governance & Quality Framework",
+            "function": "Risk & Compliance"
+          },
+          {
+            "initiative_id": "INIT-060",
+            "name": "Third-Party & Supplier Risk Management",
+            "function": "Risk & Compliance"
+          }
+        ],
+        "deferred_initiatives": [
+          {
+            "initiative_id": "INIT-033",
+            "name": "Group Planning & Forecasting Rebuild (FP&A)",
+            "function": "Finance"
+          },
+          {
+            "initiative_id": "INIT-047",
+            "name": "Subscription Maintenance Offering",
+            "function": "Growth / Commercial"
+          },
+          {
+            "initiative_id": "INIT-046",
+            "name": "Aftermarket Services Proposition",
+            "function": "Growth / Commercial"
+          },
+          {
+            "initiative_id": "INIT-037",
+            "name": "Manager Capability Programme",
+            "function": "HR / People"
+          },
+          {
+            "initiative_id": "INIT-024",
+            "name": "Warehouse Automation Pilot",
+            "function": "Supply Chain"
+          },
+          {
+            "initiative_id": "INIT-010",
+            "name": "Field Mobility App Rollout",
+            "function": "Technology"
+          }
+        ],
+        "must_finish_by": "2029-06-30",
+        "allow_resequencing": true,
+        "objective_function": "maximise cumulative realised benefit by 2027-06"
+      },
+      "expected_qualitative_outcome": "Benefit arrives materially earlier, but foundational enablers get pushed back, so the second half of the portfolio becomes slower and more expensive as initiatives are built on unfinished foundations. The interesting tension for the board: better year-one optics, worse three-year total value."
+    }
+  ]
+}

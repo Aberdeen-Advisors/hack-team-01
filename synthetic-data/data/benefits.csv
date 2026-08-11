@@ -1,0 +1,1441 @@
+initiative_id,month,benefit_plan,benefit_actual,pnl_impact_type,confidence
+INIT-001,2026-01,0,0,Enabling (attributed to downstream),Low
+INIT-001,2026-02,0,0,Enabling (attributed to downstream),Low
+INIT-001,2026-03,0,0,Enabling (attributed to downstream),Low
+INIT-001,2026-04,0,0,Enabling (attributed to downstream),Low
+INIT-001,2026-05,0,0,Enabling (attributed to downstream),Low
+INIT-001,2026-06,0,0,Enabling (attributed to downstream),Low
+INIT-001,2026-07,648,507,Enabling (attributed to downstream),Low
+INIT-001,2026-08,1296,,Enabling (attributed to downstream),Low
+INIT-001,2026-09,1944,,Enabling (attributed to downstream),Low
+INIT-001,2026-10,2593,,Enabling (attributed to downstream),Low
+INIT-001,2026-11,3241,,Enabling (attributed to downstream),Low
+INIT-001,2026-12,3889,,Enabling (attributed to downstream),Low
+INIT-001,2027-01,4537,,Enabling (attributed to downstream),Low
+INIT-001,2027-02,5185,,Enabling (attributed to downstream),Low
+INIT-001,2027-03,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-04,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-05,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-06,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-07,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-08,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-09,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-10,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-11,5833,,Enabling (attributed to downstream),Low
+INIT-001,2027-12,5833,,Enabling (attributed to downstream),Low
+INIT-002,2026-01,0,0,Opex reduction,High
+INIT-002,2026-02,0,0,Opex reduction,High
+INIT-002,2026-03,0,0,Opex reduction,High
+INIT-002,2026-04,0,0,Opex reduction,High
+INIT-002,2026-05,0,0,Opex reduction,High
+INIT-002,2026-06,0,0,Opex reduction,High
+INIT-002,2026-07,0,0,Opex reduction,High
+INIT-002,2026-08,0,,Opex reduction,High
+INIT-002,2026-09,0,,Opex reduction,High
+INIT-002,2026-10,0,,Opex reduction,High
+INIT-002,2026-11,0,,Opex reduction,High
+INIT-002,2026-12,0,,Opex reduction,High
+INIT-002,2027-01,0,,Opex reduction,High
+INIT-002,2027-02,0,,Opex reduction,High
+INIT-002,2027-03,0,,Opex reduction,High
+INIT-002,2027-04,0,,Opex reduction,High
+INIT-002,2027-05,0,,Opex reduction,High
+INIT-002,2027-06,20694,,Opex reduction,High
+INIT-002,2027-07,41389,,Opex reduction,High
+INIT-002,2027-08,62083,,Opex reduction,High
+INIT-002,2027-09,82778,,Opex reduction,High
+INIT-002,2027-10,103472,,Opex reduction,High
+INIT-002,2027-11,124167,,Opex reduction,High
+INIT-002,2027-12,144861,,Opex reduction,High
+INIT-003,2026-01,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-02,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-03,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-04,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-05,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-06,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-07,0,0,Enabling (attributed to downstream),Low
+INIT-003,2026-08,0,,Enabling (attributed to downstream),Low
+INIT-003,2026-09,0,,Enabling (attributed to downstream),Low
+INIT-003,2026-10,3542,,Enabling (attributed to downstream),Low
+INIT-003,2026-11,7083,,Enabling (attributed to downstream),Low
+INIT-003,2026-12,10625,,Enabling (attributed to downstream),Low
+INIT-003,2027-01,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-02,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-03,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-04,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-05,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-06,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-07,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-08,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-09,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-10,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-11,14167,,Enabling (attributed to downstream),Low
+INIT-003,2027-12,14167,,Enabling (attributed to downstream),Low
+INIT-004,2026-01,0,0,Non-financial / risk,Med
+INIT-004,2026-02,0,0,Non-financial / risk,Med
+INIT-004,2026-03,0,0,Non-financial / risk,Med
+INIT-004,2026-04,0,0,Non-financial / risk,Med
+INIT-004,2026-05,0,0,Non-financial / risk,Med
+INIT-004,2026-06,0,0,Non-financial / risk,Med
+INIT-004,2026-07,0,0,Non-financial / risk,Med
+INIT-004,2026-08,0,,Non-financial / risk,Med
+INIT-004,2026-09,0,,Non-financial / risk,Med
+INIT-004,2026-10,0,,Non-financial / risk,Med
+INIT-004,2026-11,0,,Non-financial / risk,Med
+INIT-004,2026-12,2569,,Non-financial / risk,Med
+INIT-004,2027-01,5139,,Non-financial / risk,Med
+INIT-004,2027-02,7708,,Non-financial / risk,Med
+INIT-004,2027-03,10278,,Non-financial / risk,Med
+INIT-004,2027-04,12847,,Non-financial / risk,Med
+INIT-004,2027-05,15417,,Non-financial / risk,Med
+INIT-004,2027-06,17986,,Non-financial / risk,Med
+INIT-004,2027-07,20556,,Non-financial / risk,Med
+INIT-004,2027-08,23125,,Non-financial / risk,Med
+INIT-004,2027-09,25694,,Non-financial / risk,Med
+INIT-004,2027-10,28264,,Non-financial / risk,Med
+INIT-004,2027-11,30833,,Non-financial / risk,Med
+INIT-004,2027-12,30833,,Non-financial / risk,Med
+INIT-005,2026-01,0,0,Opex reduction,Med
+INIT-005,2026-02,0,0,Opex reduction,Med
+INIT-005,2026-03,0,0,Opex reduction,Med
+INIT-005,2026-04,0,0,Opex reduction,Med
+INIT-005,2026-05,0,0,Opex reduction,Med
+INIT-005,2026-06,0,0,Opex reduction,Med
+INIT-005,2026-07,0,0,Opex reduction,Med
+INIT-005,2026-08,0,,Opex reduction,Med
+INIT-005,2026-09,0,,Opex reduction,Med
+INIT-005,2026-10,0,,Opex reduction,Med
+INIT-005,2026-11,0,,Opex reduction,Med
+INIT-005,2026-12,0,,Opex reduction,Med
+INIT-005,2027-01,0,,Opex reduction,Med
+INIT-005,2027-02,0,,Opex reduction,Med
+INIT-005,2027-03,0,,Opex reduction,Med
+INIT-005,2027-04,0,,Opex reduction,Med
+INIT-005,2027-05,0,,Opex reduction,Med
+INIT-005,2027-06,0,,Opex reduction,Med
+INIT-005,2027-07,0,,Opex reduction,Med
+INIT-005,2027-08,0,,Opex reduction,Med
+INIT-005,2027-09,0,,Opex reduction,Med
+INIT-005,2027-10,34167,,Opex reduction,Med
+INIT-005,2027-11,68333,,Opex reduction,Med
+INIT-005,2027-12,102500,,Opex reduction,Med
+INIT-006,2026-01,0,0,Opex reduction,Low
+INIT-006,2026-02,0,0,Opex reduction,Low
+INIT-006,2026-03,0,0,Opex reduction,Low
+INIT-006,2026-04,0,0,Opex reduction,Low
+INIT-006,2026-05,0,0,Opex reduction,Low
+INIT-006,2026-06,0,0,Opex reduction,Low
+INIT-006,2026-07,0,0,Opex reduction,Low
+INIT-006,2026-08,0,,Opex reduction,Low
+INIT-006,2026-09,0,,Opex reduction,Low
+INIT-006,2026-10,0,,Opex reduction,Low
+INIT-006,2026-11,0,,Opex reduction,Low
+INIT-006,2026-12,0,,Opex reduction,Low
+INIT-006,2027-01,0,,Opex reduction,Low
+INIT-006,2027-02,0,,Opex reduction,Low
+INIT-006,2027-03,0,,Opex reduction,Low
+INIT-006,2027-04,0,,Opex reduction,Low
+INIT-006,2027-05,0,,Opex reduction,Low
+INIT-006,2027-06,36458,,Opex reduction,Low
+INIT-006,2027-07,72917,,Opex reduction,Low
+INIT-006,2027-08,109375,,Opex reduction,Low
+INIT-006,2027-09,145833,,Opex reduction,Low
+INIT-006,2027-10,145833,,Opex reduction,Low
+INIT-006,2027-11,145833,,Opex reduction,Low
+INIT-006,2027-12,145833,,Opex reduction,Low
+INIT-007,2026-01,0,0,Gross margin,Med
+INIT-007,2026-02,0,0,Gross margin,Med
+INIT-007,2026-03,0,0,Gross margin,Med
+INIT-007,2026-04,0,0,Gross margin,Med
+INIT-007,2026-05,0,0,Gross margin,Med
+INIT-007,2026-06,0,0,Gross margin,Med
+INIT-007,2026-07,0,0,Gross margin,Med
+INIT-007,2026-08,0,,Gross margin,Med
+INIT-007,2026-09,0,,Gross margin,Med
+INIT-007,2026-10,0,,Gross margin,Med
+INIT-007,2026-11,0,,Gross margin,Med
+INIT-007,2026-12,0,,Gross margin,Med
+INIT-007,2027-01,0,,Gross margin,Med
+INIT-007,2027-02,0,,Gross margin,Med
+INIT-007,2027-03,0,,Gross margin,Med
+INIT-007,2027-04,0,,Gross margin,Med
+INIT-007,2027-05,45833,,Gross margin,Med
+INIT-007,2027-06,91667,,Gross margin,Med
+INIT-007,2027-07,137500,,Gross margin,Med
+INIT-007,2027-08,183333,,Gross margin,Med
+INIT-007,2027-09,183333,,Gross margin,Med
+INIT-007,2027-10,183333,,Gross margin,Med
+INIT-007,2027-11,183333,,Gross margin,Med
+INIT-007,2027-12,183333,,Gross margin,Med
+INIT-008,2026-01,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-02,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-03,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-04,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-05,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-06,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-07,0,0,Enabling (attributed to downstream),Low
+INIT-008,2026-08,0,,Enabling (attributed to downstream),Low
+INIT-008,2026-09,0,,Enabling (attributed to downstream),Low
+INIT-008,2026-10,0,,Enabling (attributed to downstream),Low
+INIT-008,2026-11,0,,Enabling (attributed to downstream),Low
+INIT-008,2026-12,0,,Enabling (attributed to downstream),Low
+INIT-008,2027-01,0,,Enabling (attributed to downstream),Low
+INIT-008,2027-02,0,,Enabling (attributed to downstream),Low
+INIT-008,2027-03,0,,Enabling (attributed to downstream),Low
+INIT-008,2027-04,3750,,Enabling (attributed to downstream),Low
+INIT-008,2027-05,7500,,Enabling (attributed to downstream),Low
+INIT-008,2027-06,11250,,Enabling (attributed to downstream),Low
+INIT-008,2027-07,15000,,Enabling (attributed to downstream),Low
+INIT-008,2027-08,18750,,Enabling (attributed to downstream),Low
+INIT-008,2027-09,22500,,Enabling (attributed to downstream),Low
+INIT-008,2027-10,22500,,Enabling (attributed to downstream),Low
+INIT-008,2027-11,22500,,Enabling (attributed to downstream),Low
+INIT-008,2027-12,22500,,Enabling (attributed to downstream),Low
+INIT-009,2026-01,0,0,Opex reduction,Med
+INIT-009,2026-02,0,0,Opex reduction,Med
+INIT-009,2026-03,0,0,Opex reduction,Med
+INIT-009,2026-04,0,0,Opex reduction,Med
+INIT-009,2026-05,0,0,Opex reduction,Med
+INIT-009,2026-06,0,0,Opex reduction,Med
+INIT-009,2026-07,0,0,Opex reduction,Med
+INIT-009,2026-08,0,,Opex reduction,Med
+INIT-009,2026-09,0,,Opex reduction,Med
+INIT-009,2026-10,0,,Opex reduction,Med
+INIT-009,2026-11,0,,Opex reduction,Med
+INIT-009,2026-12,0,,Opex reduction,Med
+INIT-009,2027-01,0,,Opex reduction,Med
+INIT-009,2027-02,0,,Opex reduction,Med
+INIT-009,2027-03,0,,Opex reduction,Med
+INIT-009,2027-04,0,,Opex reduction,Med
+INIT-009,2027-05,0,,Opex reduction,Med
+INIT-009,2027-06,0,,Opex reduction,Med
+INIT-009,2027-07,11250,,Opex reduction,Med
+INIT-009,2027-08,22500,,Opex reduction,Med
+INIT-009,2027-09,33750,,Opex reduction,Med
+INIT-009,2027-10,45000,,Opex reduction,Med
+INIT-009,2027-11,45000,,Opex reduction,Med
+INIT-009,2027-12,45000,,Opex reduction,Med
+INIT-010,2026-01,0,0,Opex reduction,Low
+INIT-010,2026-02,0,0,Opex reduction,Low
+INIT-010,2026-03,0,0,Opex reduction,Low
+INIT-010,2026-04,0,0,Opex reduction,Low
+INIT-010,2026-05,0,0,Opex reduction,Low
+INIT-010,2026-06,0,0,Opex reduction,Low
+INIT-010,2026-07,0,0,Opex reduction,Low
+INIT-010,2026-08,0,,Opex reduction,Low
+INIT-010,2026-09,0,,Opex reduction,Low
+INIT-010,2026-10,0,,Opex reduction,Low
+INIT-010,2026-11,0,,Opex reduction,Low
+INIT-010,2026-12,0,,Opex reduction,Low
+INIT-010,2027-01,0,,Opex reduction,Low
+INIT-010,2027-02,0,,Opex reduction,Low
+INIT-010,2027-03,0,,Opex reduction,Low
+INIT-010,2027-04,0,,Opex reduction,Low
+INIT-010,2027-05,0,,Opex reduction,Low
+INIT-010,2027-06,0,,Opex reduction,Low
+INIT-010,2027-07,0,,Opex reduction,Low
+INIT-010,2027-08,0,,Opex reduction,Low
+INIT-010,2027-09,0,,Opex reduction,Low
+INIT-010,2027-10,0,,Opex reduction,Low
+INIT-010,2027-11,0,,Opex reduction,Low
+INIT-010,2027-12,7569,,Opex reduction,Low
+INIT-011,2026-01,0,0,Opex reduction,High
+INIT-011,2026-02,0,0,Opex reduction,High
+INIT-011,2026-03,0,0,Opex reduction,High
+INIT-011,2026-04,0,0,Opex reduction,High
+INIT-011,2026-05,0,0,Opex reduction,High
+INIT-011,2026-06,0,0,Opex reduction,High
+INIT-011,2026-07,0,0,Opex reduction,High
+INIT-011,2026-08,0,,Opex reduction,High
+INIT-011,2026-09,0,,Opex reduction,High
+INIT-011,2026-10,0,,Opex reduction,High
+INIT-011,2026-11,0,,Opex reduction,High
+INIT-011,2026-12,0,,Opex reduction,High
+INIT-011,2027-01,0,,Opex reduction,High
+INIT-011,2027-02,0,,Opex reduction,High
+INIT-011,2027-03,0,,Opex reduction,High
+INIT-011,2027-04,41528,,Opex reduction,High
+INIT-011,2027-05,83056,,Opex reduction,High
+INIT-011,2027-06,124583,,Opex reduction,High
+INIT-011,2027-07,166111,,Opex reduction,High
+INIT-011,2027-08,207639,,Opex reduction,High
+INIT-011,2027-09,249167,,Opex reduction,High
+INIT-011,2027-10,249167,,Opex reduction,High
+INIT-011,2027-11,249167,,Opex reduction,High
+INIT-011,2027-12,249167,,Opex reduction,High
+INIT-012,2026-01,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-02,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-03,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-04,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-05,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-06,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-07,0,0,Cost avoided (non-cash),Low
+INIT-012,2026-08,0,,Cost avoided (non-cash),Low
+INIT-012,2026-09,0,,Cost avoided (non-cash),Low
+INIT-012,2026-10,0,,Cost avoided (non-cash),Low
+INIT-012,2026-11,0,,Cost avoided (non-cash),Low
+INIT-012,2026-12,0,,Cost avoided (non-cash),Low
+INIT-012,2027-01,0,,Cost avoided (non-cash),Low
+INIT-012,2027-02,0,,Cost avoided (non-cash),Low
+INIT-012,2027-03,20370,,Cost avoided (non-cash),Low
+INIT-012,2027-04,40741,,Cost avoided (non-cash),Low
+INIT-012,2027-05,61111,,Cost avoided (non-cash),Low
+INIT-012,2027-06,81481,,Cost avoided (non-cash),Low
+INIT-012,2027-07,101852,,Cost avoided (non-cash),Low
+INIT-012,2027-08,122222,,Cost avoided (non-cash),Low
+INIT-012,2027-09,142593,,Cost avoided (non-cash),Low
+INIT-012,2027-10,162963,,Cost avoided (non-cash),Low
+INIT-012,2027-11,183333,,Cost avoided (non-cash),Low
+INIT-012,2027-12,183333,,Cost avoided (non-cash),Low
+INIT-013,2026-01,0,0,Opex reduction,Med
+INIT-013,2026-02,0,0,Opex reduction,Med
+INIT-013,2026-03,0,0,Opex reduction,Med
+INIT-013,2026-04,0,0,Opex reduction,Med
+INIT-013,2026-05,0,0,Opex reduction,Med
+INIT-013,2026-06,0,0,Opex reduction,Med
+INIT-013,2026-07,0,0,Opex reduction,Med
+INIT-013,2026-08,0,,Opex reduction,Med
+INIT-013,2026-09,0,,Opex reduction,Med
+INIT-013,2026-10,0,,Opex reduction,Med
+INIT-013,2026-11,0,,Opex reduction,Med
+INIT-013,2026-12,0,,Opex reduction,Med
+INIT-013,2027-01,0,,Opex reduction,Med
+INIT-013,2027-02,0,,Opex reduction,Med
+INIT-013,2027-03,0,,Opex reduction,Med
+INIT-013,2027-04,0,,Opex reduction,Med
+INIT-013,2027-05,0,,Opex reduction,Med
+INIT-013,2027-06,0,,Opex reduction,Med
+INIT-013,2027-07,0,,Opex reduction,Med
+INIT-013,2027-08,0,,Opex reduction,Med
+INIT-013,2027-09,0,,Opex reduction,Med
+INIT-013,2027-10,0,,Opex reduction,Med
+INIT-013,2027-11,0,,Opex reduction,Med
+INIT-013,2027-12,0,,Opex reduction,Med
+INIT-014,2026-01,0,0,Opex reduction,Med
+INIT-014,2026-02,0,0,Opex reduction,Med
+INIT-014,2026-03,0,0,Opex reduction,Med
+INIT-014,2026-04,0,0,Opex reduction,Med
+INIT-014,2026-05,0,0,Opex reduction,Med
+INIT-014,2026-06,0,0,Opex reduction,Med
+INIT-014,2026-07,0,0,Opex reduction,Med
+INIT-014,2026-08,0,,Opex reduction,Med
+INIT-014,2026-09,0,,Opex reduction,Med
+INIT-014,2026-10,0,,Opex reduction,Med
+INIT-014,2026-11,0,,Opex reduction,Med
+INIT-014,2026-12,0,,Opex reduction,Med
+INIT-014,2027-01,0,,Opex reduction,Med
+INIT-014,2027-02,0,,Opex reduction,Med
+INIT-014,2027-03,0,,Opex reduction,Med
+INIT-014,2027-04,0,,Opex reduction,Med
+INIT-014,2027-05,0,,Opex reduction,Med
+INIT-014,2027-06,0,,Opex reduction,Med
+INIT-014,2027-07,0,,Opex reduction,Med
+INIT-014,2027-08,0,,Opex reduction,Med
+INIT-014,2027-09,0,,Opex reduction,Med
+INIT-014,2027-10,0,,Opex reduction,Med
+INIT-014,2027-11,0,,Opex reduction,Med
+INIT-014,2027-12,0,,Opex reduction,Med
+INIT-015,2026-01,0,0,Opex reduction,Low
+INIT-015,2026-02,0,0,Opex reduction,Low
+INIT-015,2026-03,0,0,Opex reduction,Low
+INIT-015,2026-04,0,0,Opex reduction,Low
+INIT-015,2026-05,0,0,Opex reduction,Low
+INIT-015,2026-06,0,0,Opex reduction,Low
+INIT-015,2026-07,0,0,Opex reduction,Low
+INIT-015,2026-08,0,,Opex reduction,Low
+INIT-015,2026-09,0,,Opex reduction,Low
+INIT-015,2026-10,0,,Opex reduction,Low
+INIT-015,2026-11,0,,Opex reduction,Low
+INIT-015,2026-12,0,,Opex reduction,Low
+INIT-015,2027-01,0,,Opex reduction,Low
+INIT-015,2027-02,0,,Opex reduction,Low
+INIT-015,2027-03,0,,Opex reduction,Low
+INIT-015,2027-04,10926,,Opex reduction,Low
+INIT-015,2027-05,21852,,Opex reduction,Low
+INIT-015,2027-06,32778,,Opex reduction,Low
+INIT-015,2027-07,43704,,Opex reduction,Low
+INIT-015,2027-08,54630,,Opex reduction,Low
+INIT-015,2027-09,65556,,Opex reduction,Low
+INIT-015,2027-10,76481,,Opex reduction,Low
+INIT-015,2027-11,87407,,Opex reduction,Low
+INIT-015,2027-12,98333,,Opex reduction,Low
+INIT-016,2026-01,0,0,Non-financial / risk,Low
+INIT-016,2026-02,0,0,Non-financial / risk,Low
+INIT-016,2026-03,0,0,Non-financial / risk,Low
+INIT-016,2026-04,0,0,Non-financial / risk,Low
+INIT-016,2026-05,0,0,Non-financial / risk,Low
+INIT-016,2026-06,0,0,Non-financial / risk,Low
+INIT-016,2026-07,0,0,Non-financial / risk,Low
+INIT-016,2026-08,0,,Non-financial / risk,Low
+INIT-016,2026-09,0,,Non-financial / risk,Low
+INIT-016,2026-10,0,,Non-financial / risk,Low
+INIT-016,2026-11,0,,Non-financial / risk,Low
+INIT-016,2026-12,0,,Non-financial / risk,Low
+INIT-016,2027-01,0,,Non-financial / risk,Low
+INIT-016,2027-02,0,,Non-financial / risk,Low
+INIT-016,2027-03,0,,Non-financial / risk,Low
+INIT-016,2027-04,3519,,Non-financial / risk,Low
+INIT-016,2027-05,7037,,Non-financial / risk,Low
+INIT-016,2027-06,10556,,Non-financial / risk,Low
+INIT-016,2027-07,14074,,Non-financial / risk,Low
+INIT-016,2027-08,17593,,Non-financial / risk,Low
+INIT-016,2027-09,21111,,Non-financial / risk,Low
+INIT-016,2027-10,24630,,Non-financial / risk,Low
+INIT-016,2027-11,28148,,Non-financial / risk,Low
+INIT-016,2027-12,31667,,Non-financial / risk,Low
+INIT-017,2026-01,0,0,Non-financial / risk,Med
+INIT-017,2026-02,0,0,Non-financial / risk,Med
+INIT-017,2026-03,0,0,Non-financial / risk,Med
+INIT-017,2026-04,0,0,Non-financial / risk,Med
+INIT-017,2026-05,0,0,Non-financial / risk,Med
+INIT-017,2026-06,0,0,Non-financial / risk,Med
+INIT-017,2026-07,0,0,Non-financial / risk,Med
+INIT-017,2026-08,0,,Non-financial / risk,Med
+INIT-017,2026-09,0,,Non-financial / risk,Med
+INIT-017,2026-10,0,,Non-financial / risk,Med
+INIT-017,2026-11,0,,Non-financial / risk,Med
+INIT-017,2026-12,0,,Non-financial / risk,Med
+INIT-017,2027-01,0,,Non-financial / risk,Med
+INIT-017,2027-02,0,,Non-financial / risk,Med
+INIT-017,2027-03,0,,Non-financial / risk,Med
+INIT-017,2027-04,0,,Non-financial / risk,Med
+INIT-017,2027-05,0,,Non-financial / risk,Med
+INIT-017,2027-06,0,,Non-financial / risk,Med
+INIT-017,2027-07,0,,Non-financial / risk,Med
+INIT-017,2027-08,0,,Non-financial / risk,Med
+INIT-017,2027-09,0,,Non-financial / risk,Med
+INIT-017,2027-10,0,,Non-financial / risk,Med
+INIT-017,2027-11,0,,Non-financial / risk,Med
+INIT-017,2027-12,4306,,Non-financial / risk,Med
+INIT-018,2026-01,0,0,Opex reduction,Med
+INIT-018,2026-02,0,0,Opex reduction,Med
+INIT-018,2026-03,0,0,Opex reduction,Med
+INIT-018,2026-04,0,0,Opex reduction,Med
+INIT-018,2026-05,0,0,Opex reduction,Med
+INIT-018,2026-06,0,0,Opex reduction,Med
+INIT-018,2026-07,0,0,Opex reduction,Med
+INIT-018,2026-08,0,,Opex reduction,Med
+INIT-018,2026-09,0,,Opex reduction,Med
+INIT-018,2026-10,0,,Opex reduction,Med
+INIT-018,2026-11,0,,Opex reduction,Med
+INIT-018,2026-12,0,,Opex reduction,Med
+INIT-018,2027-01,0,,Opex reduction,Med
+INIT-018,2027-02,0,,Opex reduction,Med
+INIT-018,2027-03,0,,Opex reduction,Med
+INIT-018,2027-04,0,,Opex reduction,Med
+INIT-018,2027-05,0,,Opex reduction,Med
+INIT-018,2027-06,0,,Opex reduction,Med
+INIT-018,2027-07,0,,Opex reduction,Med
+INIT-018,2027-08,0,,Opex reduction,Med
+INIT-018,2027-09,0,,Opex reduction,Med
+INIT-018,2027-10,0,,Opex reduction,Med
+INIT-018,2027-11,9630,,Opex reduction,Med
+INIT-018,2027-12,19259,,Opex reduction,Med
+INIT-019,2026-01,0,0,Opex reduction,Med
+INIT-019,2026-02,0,0,Opex reduction,Med
+INIT-019,2026-03,0,0,Opex reduction,Med
+INIT-019,2026-04,0,0,Opex reduction,Med
+INIT-019,2026-05,0,0,Opex reduction,Med
+INIT-019,2026-06,0,0,Opex reduction,Med
+INIT-019,2026-07,0,0,Opex reduction,Med
+INIT-019,2026-08,0,,Opex reduction,Med
+INIT-019,2026-09,0,,Opex reduction,Med
+INIT-019,2026-10,0,,Opex reduction,Med
+INIT-019,2026-11,0,,Opex reduction,Med
+INIT-019,2026-12,0,,Opex reduction,Med
+INIT-019,2027-01,0,,Opex reduction,Med
+INIT-019,2027-02,0,,Opex reduction,Med
+INIT-019,2027-03,0,,Opex reduction,Med
+INIT-019,2027-04,0,,Opex reduction,Med
+INIT-019,2027-05,0,,Opex reduction,Med
+INIT-019,2027-06,0,,Opex reduction,Med
+INIT-019,2027-07,0,,Opex reduction,Med
+INIT-019,2027-08,0,,Opex reduction,Med
+INIT-019,2027-09,0,,Opex reduction,Med
+INIT-019,2027-10,0,,Opex reduction,Med
+INIT-019,2027-11,0,,Opex reduction,Med
+INIT-019,2027-12,54306,,Opex reduction,Med
+INIT-020,2026-01,0,0,Opex reduction,Med
+INIT-020,2026-02,0,0,Opex reduction,Med
+INIT-020,2026-03,0,0,Opex reduction,Med
+INIT-020,2026-04,0,0,Opex reduction,Med
+INIT-020,2026-05,0,0,Opex reduction,Med
+INIT-020,2026-06,0,0,Opex reduction,Med
+INIT-020,2026-07,0,0,Opex reduction,Med
+INIT-020,2026-08,0,,Opex reduction,Med
+INIT-020,2026-09,0,,Opex reduction,Med
+INIT-020,2026-10,0,,Opex reduction,Med
+INIT-020,2026-11,0,,Opex reduction,Med
+INIT-020,2026-12,0,,Opex reduction,Med
+INIT-020,2027-01,0,,Opex reduction,Med
+INIT-020,2027-02,0,,Opex reduction,Med
+INIT-020,2027-03,0,,Opex reduction,Med
+INIT-020,2027-04,0,,Opex reduction,Med
+INIT-020,2027-05,0,,Opex reduction,Med
+INIT-020,2027-06,0,,Opex reduction,Med
+INIT-020,2027-07,0,,Opex reduction,Med
+INIT-020,2027-08,0,,Opex reduction,Med
+INIT-020,2027-09,0,,Opex reduction,Med
+INIT-020,2027-10,0,,Opex reduction,Med
+INIT-020,2027-11,43611,,Opex reduction,Med
+INIT-020,2027-12,87222,,Opex reduction,Med
+INIT-021,2026-01,0,0,Opex reduction,Med
+INIT-021,2026-02,0,0,Opex reduction,Med
+INIT-021,2026-03,0,0,Opex reduction,Med
+INIT-021,2026-04,0,0,Opex reduction,Med
+INIT-021,2026-05,0,0,Opex reduction,Med
+INIT-021,2026-06,0,0,Opex reduction,Med
+INIT-021,2026-07,0,0,Opex reduction,Med
+INIT-021,2026-08,0,,Opex reduction,Med
+INIT-021,2026-09,0,,Opex reduction,Med
+INIT-021,2026-10,0,,Opex reduction,Med
+INIT-021,2026-11,0,,Opex reduction,Med
+INIT-021,2026-12,0,,Opex reduction,Med
+INIT-021,2027-01,0,,Opex reduction,Med
+INIT-021,2027-02,0,,Opex reduction,Med
+INIT-021,2027-03,0,,Opex reduction,Med
+INIT-021,2027-04,0,,Opex reduction,Med
+INIT-021,2027-05,0,,Opex reduction,Med
+INIT-021,2027-06,0,,Opex reduction,Med
+INIT-021,2027-07,0,,Opex reduction,Med
+INIT-021,2027-08,0,,Opex reduction,Med
+INIT-021,2027-09,0,,Opex reduction,Med
+INIT-021,2027-10,23125,,Opex reduction,Med
+INIT-021,2027-11,46250,,Opex reduction,Med
+INIT-021,2027-12,69375,,Opex reduction,Med
+INIT-022,2026-01,0,0,Opex reduction,Low
+INIT-022,2026-02,0,0,Opex reduction,Low
+INIT-022,2026-03,0,0,Opex reduction,Low
+INIT-022,2026-04,0,0,Opex reduction,Low
+INIT-022,2026-05,0,0,Opex reduction,Low
+INIT-022,2026-06,0,0,Opex reduction,Low
+INIT-022,2026-07,0,0,Opex reduction,Low
+INIT-022,2026-08,0,,Opex reduction,Low
+INIT-022,2026-09,0,,Opex reduction,Low
+INIT-022,2026-10,0,,Opex reduction,Low
+INIT-022,2026-11,0,,Opex reduction,Low
+INIT-022,2026-12,0,,Opex reduction,Low
+INIT-022,2027-01,0,,Opex reduction,Low
+INIT-022,2027-02,0,,Opex reduction,Low
+INIT-022,2027-03,0,,Opex reduction,Low
+INIT-022,2027-04,0,,Opex reduction,Low
+INIT-022,2027-05,0,,Opex reduction,Low
+INIT-022,2027-06,0,,Opex reduction,Low
+INIT-022,2027-07,0,,Opex reduction,Low
+INIT-022,2027-08,0,,Opex reduction,Low
+INIT-022,2027-09,0,,Opex reduction,Low
+INIT-022,2027-10,0,,Opex reduction,Low
+INIT-022,2027-11,0,,Opex reduction,Low
+INIT-022,2027-12,0,,Opex reduction,Low
+INIT-023,2026-01,0,0,Opex reduction,High
+INIT-023,2026-02,0,0,Opex reduction,High
+INIT-023,2026-03,0,0,Opex reduction,High
+INIT-023,2026-04,0,0,Opex reduction,High
+INIT-023,2026-05,0,0,Opex reduction,High
+INIT-023,2026-06,0,0,Opex reduction,High
+INIT-023,2026-07,0,0,Opex reduction,High
+INIT-023,2026-08,0,,Opex reduction,High
+INIT-023,2026-09,0,,Opex reduction,High
+INIT-023,2026-10,0,,Opex reduction,High
+INIT-023,2026-11,0,,Opex reduction,High
+INIT-023,2026-12,0,,Opex reduction,High
+INIT-023,2027-01,13125,,Opex reduction,High
+INIT-023,2027-02,26250,,Opex reduction,High
+INIT-023,2027-03,39375,,Opex reduction,High
+INIT-023,2027-04,52500,,Opex reduction,High
+INIT-023,2027-05,65625,,Opex reduction,High
+INIT-023,2027-06,78750,,Opex reduction,High
+INIT-023,2027-07,91875,,Opex reduction,High
+INIT-023,2027-08,105000,,Opex reduction,High
+INIT-023,2027-09,118125,,Opex reduction,High
+INIT-023,2027-10,131250,,Opex reduction,High
+INIT-023,2027-11,144375,,Opex reduction,High
+INIT-023,2027-12,157500,,Opex reduction,High
+INIT-024,2026-01,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-02,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-03,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-04,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-05,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-06,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-07,0,0,Cost avoided (non-cash),Low
+INIT-024,2026-08,0,,Cost avoided (non-cash),Low
+INIT-024,2026-09,0,,Cost avoided (non-cash),Low
+INIT-024,2026-10,0,,Cost avoided (non-cash),Low
+INIT-024,2026-11,0,,Cost avoided (non-cash),Low
+INIT-024,2026-12,0,,Cost avoided (non-cash),Low
+INIT-024,2027-01,0,,Cost avoided (non-cash),Low
+INIT-024,2027-02,0,,Cost avoided (non-cash),Low
+INIT-024,2027-03,0,,Cost avoided (non-cash),Low
+INIT-024,2027-04,0,,Cost avoided (non-cash),Low
+INIT-024,2027-05,0,,Cost avoided (non-cash),Low
+INIT-024,2027-06,0,,Cost avoided (non-cash),Low
+INIT-024,2027-07,0,,Cost avoided (non-cash),Low
+INIT-024,2027-08,0,,Cost avoided (non-cash),Low
+INIT-024,2027-09,0,,Cost avoided (non-cash),Low
+INIT-024,2027-10,0,,Cost avoided (non-cash),Low
+INIT-024,2027-11,0,,Cost avoided (non-cash),Low
+INIT-024,2027-12,0,,Cost avoided (non-cash),Low
+INIT-025,2026-01,0,0,Opex reduction,Low
+INIT-025,2026-02,0,0,Opex reduction,Low
+INIT-025,2026-03,0,0,Opex reduction,Low
+INIT-025,2026-04,0,0,Opex reduction,Low
+INIT-025,2026-05,0,0,Opex reduction,Low
+INIT-025,2026-06,0,0,Opex reduction,Low
+INIT-025,2026-07,0,0,Opex reduction,Low
+INIT-025,2026-08,0,,Opex reduction,Low
+INIT-025,2026-09,0,,Opex reduction,Low
+INIT-025,2026-10,0,,Opex reduction,Low
+INIT-025,2026-11,0,,Opex reduction,Low
+INIT-025,2026-12,0,,Opex reduction,Low
+INIT-025,2027-01,0,,Opex reduction,Low
+INIT-025,2027-02,0,,Opex reduction,Low
+INIT-025,2027-03,0,,Opex reduction,Low
+INIT-025,2027-04,0,,Opex reduction,Low
+INIT-025,2027-05,0,,Opex reduction,Low
+INIT-025,2027-06,0,,Opex reduction,Low
+INIT-025,2027-07,0,,Opex reduction,Low
+INIT-025,2027-08,28611,,Opex reduction,Low
+INIT-025,2027-09,57222,,Opex reduction,Low
+INIT-025,2027-10,85833,,Opex reduction,Low
+INIT-025,2027-11,114444,,Opex reduction,Low
+INIT-025,2027-12,143056,,Opex reduction,Low
+INIT-026,2026-01,0,0,Opex reduction,High
+INIT-026,2026-02,0,0,Opex reduction,High
+INIT-026,2026-03,0,0,Opex reduction,High
+INIT-026,2026-04,0,0,Opex reduction,High
+INIT-026,2026-05,0,0,Opex reduction,High
+INIT-026,2026-06,0,0,Opex reduction,High
+INIT-026,2026-07,0,0,Opex reduction,High
+INIT-026,2026-08,0,,Opex reduction,High
+INIT-026,2026-09,0,,Opex reduction,High
+INIT-026,2026-10,0,,Opex reduction,High
+INIT-026,2026-11,0,,Opex reduction,High
+INIT-026,2026-12,0,,Opex reduction,High
+INIT-026,2027-01,0,,Opex reduction,High
+INIT-026,2027-02,0,,Opex reduction,High
+INIT-026,2027-03,0,,Opex reduction,High
+INIT-026,2027-04,16389,,Opex reduction,High
+INIT-026,2027-05,32778,,Opex reduction,High
+INIT-026,2027-06,49167,,Opex reduction,High
+INIT-026,2027-07,65556,,Opex reduction,High
+INIT-026,2027-08,81944,,Opex reduction,High
+INIT-026,2027-09,98333,,Opex reduction,High
+INIT-026,2027-10,114722,,Opex reduction,High
+INIT-026,2027-11,131111,,Opex reduction,High
+INIT-026,2027-12,147500,,Opex reduction,High
+INIT-027,2026-01,0,0,Opex reduction,Med
+INIT-027,2026-02,0,0,Opex reduction,Med
+INIT-027,2026-03,0,0,Opex reduction,Med
+INIT-027,2026-04,0,0,Opex reduction,Med
+INIT-027,2026-05,0,0,Opex reduction,Med
+INIT-027,2026-06,0,0,Opex reduction,Med
+INIT-027,2026-07,0,0,Opex reduction,Med
+INIT-027,2026-08,0,,Opex reduction,Med
+INIT-027,2026-09,0,,Opex reduction,Med
+INIT-027,2026-10,0,,Opex reduction,Med
+INIT-027,2026-11,0,,Opex reduction,Med
+INIT-027,2026-12,0,,Opex reduction,Med
+INIT-027,2027-01,0,,Opex reduction,Med
+INIT-027,2027-02,0,,Opex reduction,Med
+INIT-027,2027-03,0,,Opex reduction,Med
+INIT-027,2027-04,0,,Opex reduction,Med
+INIT-027,2027-05,0,,Opex reduction,Med
+INIT-027,2027-06,0,,Opex reduction,Med
+INIT-027,2027-07,0,,Opex reduction,Med
+INIT-027,2027-08,0,,Opex reduction,Med
+INIT-027,2027-09,0,,Opex reduction,Med
+INIT-027,2027-10,0,,Opex reduction,Med
+INIT-027,2027-11,0,,Opex reduction,Med
+INIT-027,2027-12,0,,Opex reduction,Med
+INIT-028,2026-01,0,0,Opex reduction,High
+INIT-028,2026-02,0,0,Opex reduction,High
+INIT-028,2026-03,0,0,Opex reduction,High
+INIT-028,2026-04,0,0,Opex reduction,High
+INIT-028,2026-05,0,0,Opex reduction,High
+INIT-028,2026-06,0,0,Opex reduction,High
+INIT-028,2026-07,0,0,Opex reduction,High
+INIT-028,2026-08,0,,Opex reduction,High
+INIT-028,2026-09,0,,Opex reduction,High
+INIT-028,2026-10,0,,Opex reduction,High
+INIT-028,2026-11,0,,Opex reduction,High
+INIT-028,2026-12,0,,Opex reduction,High
+INIT-028,2027-01,0,,Opex reduction,High
+INIT-028,2027-02,0,,Opex reduction,High
+INIT-028,2027-03,0,,Opex reduction,High
+INIT-028,2027-04,0,,Opex reduction,High
+INIT-028,2027-05,0,,Opex reduction,High
+INIT-028,2027-06,0,,Opex reduction,High
+INIT-028,2027-07,0,,Opex reduction,High
+INIT-028,2027-08,0,,Opex reduction,High
+INIT-028,2027-09,0,,Opex reduction,High
+INIT-028,2027-10,0,,Opex reduction,High
+INIT-028,2027-11,0,,Opex reduction,High
+INIT-028,2027-12,0,,Opex reduction,High
+INIT-029,2026-01,0,0,Opex reduction,High
+INIT-029,2026-02,0,0,Opex reduction,High
+INIT-029,2026-03,0,0,Opex reduction,High
+INIT-029,2026-04,0,0,Opex reduction,High
+INIT-029,2026-05,0,0,Opex reduction,High
+INIT-029,2026-06,0,0,Opex reduction,High
+INIT-029,2026-07,0,0,Opex reduction,High
+INIT-029,2026-08,0,,Opex reduction,High
+INIT-029,2026-09,0,,Opex reduction,High
+INIT-029,2026-10,0,,Opex reduction,High
+INIT-029,2026-11,0,,Opex reduction,High
+INIT-029,2026-12,0,,Opex reduction,High
+INIT-029,2027-01,0,,Opex reduction,High
+INIT-029,2027-02,0,,Opex reduction,High
+INIT-029,2027-03,10278,,Opex reduction,High
+INIT-029,2027-04,20556,,Opex reduction,High
+INIT-029,2027-05,30833,,Opex reduction,High
+INIT-029,2027-06,41111,,Opex reduction,High
+INIT-029,2027-07,51389,,Opex reduction,High
+INIT-029,2027-08,61667,,Opex reduction,High
+INIT-029,2027-09,61667,,Opex reduction,High
+INIT-029,2027-10,61667,,Opex reduction,High
+INIT-029,2027-11,61667,,Opex reduction,High
+INIT-029,2027-12,61667,,Opex reduction,High
+INIT-030,2026-01,0,0,Opex reduction,Low
+INIT-030,2026-02,0,0,Opex reduction,Low
+INIT-030,2026-03,0,0,Opex reduction,Low
+INIT-030,2026-04,0,0,Opex reduction,Low
+INIT-030,2026-05,0,0,Opex reduction,Low
+INIT-030,2026-06,0,0,Opex reduction,Low
+INIT-030,2026-07,0,0,Opex reduction,Low
+INIT-030,2026-08,0,,Opex reduction,Low
+INIT-030,2026-09,0,,Opex reduction,Low
+INIT-030,2026-10,0,,Opex reduction,Low
+INIT-030,2026-11,0,,Opex reduction,Low
+INIT-030,2026-12,0,,Opex reduction,Low
+INIT-030,2027-01,0,,Opex reduction,Low
+INIT-030,2027-02,0,,Opex reduction,Low
+INIT-030,2027-03,0,,Opex reduction,Low
+INIT-030,2027-04,0,,Opex reduction,Low
+INIT-030,2027-05,0,,Opex reduction,Low
+INIT-030,2027-06,0,,Opex reduction,Low
+INIT-030,2027-07,0,,Opex reduction,Low
+INIT-030,2027-08,0,,Opex reduction,Low
+INIT-030,2027-09,0,,Opex reduction,Low
+INIT-030,2027-10,0,,Opex reduction,Low
+INIT-030,2027-11,0,,Opex reduction,Low
+INIT-030,2027-12,0,,Opex reduction,Low
+INIT-031,2026-01,0,0,Opex reduction,Med
+INIT-031,2026-02,0,0,Opex reduction,Med
+INIT-031,2026-03,0,0,Opex reduction,Med
+INIT-031,2026-04,0,0,Opex reduction,Med
+INIT-031,2026-05,0,0,Opex reduction,Med
+INIT-031,2026-06,0,0,Opex reduction,Med
+INIT-031,2026-07,0,0,Opex reduction,Med
+INIT-031,2026-08,0,,Opex reduction,Med
+INIT-031,2026-09,0,,Opex reduction,Med
+INIT-031,2026-10,0,,Opex reduction,Med
+INIT-031,2026-11,0,,Opex reduction,Med
+INIT-031,2026-12,0,,Opex reduction,Med
+INIT-031,2027-01,0,,Opex reduction,Med
+INIT-031,2027-02,0,,Opex reduction,Med
+INIT-031,2027-03,0,,Opex reduction,Med
+INIT-031,2027-04,0,,Opex reduction,Med
+INIT-031,2027-05,0,,Opex reduction,Med
+INIT-031,2027-06,27500,,Opex reduction,Med
+INIT-031,2027-07,55000,,Opex reduction,Med
+INIT-031,2027-08,82500,,Opex reduction,Med
+INIT-031,2027-09,82500,,Opex reduction,Med
+INIT-031,2027-10,82500,,Opex reduction,Med
+INIT-031,2027-11,82500,,Opex reduction,Med
+INIT-031,2027-12,82500,,Opex reduction,Med
+INIT-032,2026-01,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-02,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-03,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-04,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-05,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-06,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-07,0,0,Cost avoided (non-cash),Low
+INIT-032,2026-08,0,,Cost avoided (non-cash),Low
+INIT-032,2026-09,0,,Cost avoided (non-cash),Low
+INIT-032,2026-10,0,,Cost avoided (non-cash),Low
+INIT-032,2026-11,0,,Cost avoided (non-cash),Low
+INIT-032,2026-12,0,,Cost avoided (non-cash),Low
+INIT-032,2027-01,0,,Cost avoided (non-cash),Low
+INIT-032,2027-02,0,,Cost avoided (non-cash),Low
+INIT-032,2027-03,0,,Cost avoided (non-cash),Low
+INIT-032,2027-04,0,,Cost avoided (non-cash),Low
+INIT-032,2027-05,6111,,Cost avoided (non-cash),Low
+INIT-032,2027-06,12222,,Cost avoided (non-cash),Low
+INIT-032,2027-07,18333,,Cost avoided (non-cash),Low
+INIT-032,2027-08,24444,,Cost avoided (non-cash),Low
+INIT-032,2027-09,30556,,Cost avoided (non-cash),Low
+INIT-032,2027-10,36667,,Cost avoided (non-cash),Low
+INIT-032,2027-11,36667,,Cost avoided (non-cash),Low
+INIT-032,2027-12,36667,,Cost avoided (non-cash),Low
+INIT-033,2026-01,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-02,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-03,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-04,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-05,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-06,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-07,0,0,Enabling (attributed to downstream),Low
+INIT-033,2026-08,0,,Enabling (attributed to downstream),Low
+INIT-033,2026-09,0,,Enabling (attributed to downstream),Low
+INIT-033,2026-10,0,,Enabling (attributed to downstream),Low
+INIT-033,2026-11,0,,Enabling (attributed to downstream),Low
+INIT-033,2026-12,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-01,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-02,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-03,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-04,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-05,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-06,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-07,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-08,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-09,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-10,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-11,0,,Enabling (attributed to downstream),Low
+INIT-033,2027-12,0,,Enabling (attributed to downstream),Low
+INIT-034,2026-01,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-02,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-03,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-04,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-05,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-06,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-07,0,0,Cost avoided (non-cash),Med
+INIT-034,2026-08,0,,Cost avoided (non-cash),Med
+INIT-034,2026-09,0,,Cost avoided (non-cash),Med
+INIT-034,2026-10,0,,Cost avoided (non-cash),Med
+INIT-034,2026-11,0,,Cost avoided (non-cash),Med
+INIT-034,2026-12,0,,Cost avoided (non-cash),Med
+INIT-034,2027-01,0,,Cost avoided (non-cash),Med
+INIT-034,2027-02,0,,Cost avoided (non-cash),Med
+INIT-034,2027-03,0,,Cost avoided (non-cash),Med
+INIT-034,2027-04,0,,Cost avoided (non-cash),Med
+INIT-034,2027-05,13472,,Cost avoided (non-cash),Med
+INIT-034,2027-06,26944,,Cost avoided (non-cash),Med
+INIT-034,2027-07,40417,,Cost avoided (non-cash),Med
+INIT-034,2027-08,53889,,Cost avoided (non-cash),Med
+INIT-034,2027-09,67361,,Cost avoided (non-cash),Med
+INIT-034,2027-10,80833,,Cost avoided (non-cash),Med
+INIT-034,2027-11,80833,,Cost avoided (non-cash),Med
+INIT-034,2027-12,80833,,Cost avoided (non-cash),Med
+INIT-035,2026-01,0,0,Opex reduction,Med
+INIT-035,2026-02,0,0,Opex reduction,Med
+INIT-035,2026-03,0,0,Opex reduction,Med
+INIT-035,2026-04,0,0,Opex reduction,Med
+INIT-035,2026-05,0,0,Opex reduction,Med
+INIT-035,2026-06,0,0,Opex reduction,Med
+INIT-035,2026-07,0,0,Opex reduction,Med
+INIT-035,2026-08,0,,Opex reduction,Med
+INIT-035,2026-09,0,,Opex reduction,Med
+INIT-035,2026-10,0,,Opex reduction,Med
+INIT-035,2026-11,9306,,Opex reduction,Med
+INIT-035,2026-12,18611,,Opex reduction,Med
+INIT-035,2027-01,27917,,Opex reduction,Med
+INIT-035,2027-02,37222,,Opex reduction,Med
+INIT-035,2027-03,46528,,Opex reduction,Med
+INIT-035,2027-04,55833,,Opex reduction,Med
+INIT-035,2027-05,55833,,Opex reduction,Med
+INIT-035,2027-06,55833,,Opex reduction,Med
+INIT-035,2027-07,55833,,Opex reduction,Med
+INIT-035,2027-08,55833,,Opex reduction,Med
+INIT-035,2027-09,55833,,Opex reduction,Med
+INIT-035,2027-10,55833,,Opex reduction,Med
+INIT-035,2027-11,55833,,Opex reduction,Med
+INIT-035,2027-12,55833,,Opex reduction,Med
+INIT-036,2026-01,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-02,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-03,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-04,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-05,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-06,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-07,0,0,Cost avoided (non-cash),Low
+INIT-036,2026-08,0,,Cost avoided (non-cash),Low
+INIT-036,2026-09,0,,Cost avoided (non-cash),Low
+INIT-036,2026-10,0,,Cost avoided (non-cash),Low
+INIT-036,2026-11,0,,Cost avoided (non-cash),Low
+INIT-036,2026-12,0,,Cost avoided (non-cash),Low
+INIT-036,2027-01,0,,Cost avoided (non-cash),Low
+INIT-036,2027-02,0,,Cost avoided (non-cash),Low
+INIT-036,2027-03,0,,Cost avoided (non-cash),Low
+INIT-036,2027-04,0,,Cost avoided (non-cash),Low
+INIT-036,2027-05,0,,Cost avoided (non-cash),Low
+INIT-036,2027-06,0,,Cost avoided (non-cash),Low
+INIT-036,2027-07,0,,Cost avoided (non-cash),Low
+INIT-036,2027-08,0,,Cost avoided (non-cash),Low
+INIT-036,2027-09,0,,Cost avoided (non-cash),Low
+INIT-036,2027-10,0,,Cost avoided (non-cash),Low
+INIT-036,2027-11,0,,Cost avoided (non-cash),Low
+INIT-036,2027-12,0,,Cost avoided (non-cash),Low
+INIT-037,2026-01,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-02,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-03,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-04,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-05,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-06,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-07,0,0,Enabling (attributed to downstream),Low
+INIT-037,2026-08,0,,Enabling (attributed to downstream),Low
+INIT-037,2026-09,0,,Enabling (attributed to downstream),Low
+INIT-037,2026-10,0,,Enabling (attributed to downstream),Low
+INIT-037,2026-11,0,,Enabling (attributed to downstream),Low
+INIT-037,2026-12,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-01,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-02,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-03,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-04,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-05,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-06,0,,Enabling (attributed to downstream),Low
+INIT-037,2027-07,556,,Enabling (attributed to downstream),Low
+INIT-037,2027-08,1111,,Enabling (attributed to downstream),Low
+INIT-037,2027-09,1667,,Enabling (attributed to downstream),Low
+INIT-037,2027-10,2222,,Enabling (attributed to downstream),Low
+INIT-037,2027-11,2778,,Enabling (attributed to downstream),Low
+INIT-037,2027-12,3333,,Enabling (attributed to downstream),Low
+INIT-038,2026-01,0,0,Opex reduction,High
+INIT-038,2026-02,0,0,Opex reduction,High
+INIT-038,2026-03,0,0,Opex reduction,High
+INIT-038,2026-04,0,0,Opex reduction,High
+INIT-038,2026-05,0,0,Opex reduction,High
+INIT-038,2026-06,0,0,Opex reduction,High
+INIT-038,2026-07,0,0,Opex reduction,High
+INIT-038,2026-08,0,,Opex reduction,High
+INIT-038,2026-09,0,,Opex reduction,High
+INIT-038,2026-10,0,,Opex reduction,High
+INIT-038,2026-11,0,,Opex reduction,High
+INIT-038,2026-12,0,,Opex reduction,High
+INIT-038,2027-01,0,,Opex reduction,High
+INIT-038,2027-02,0,,Opex reduction,High
+INIT-038,2027-03,0,,Opex reduction,High
+INIT-038,2027-04,0,,Opex reduction,High
+INIT-038,2027-05,0,,Opex reduction,High
+INIT-038,2027-06,0,,Opex reduction,High
+INIT-038,2027-07,19444,,Opex reduction,High
+INIT-038,2027-08,38889,,Opex reduction,High
+INIT-038,2027-09,58333,,Opex reduction,High
+INIT-038,2027-10,58333,,Opex reduction,High
+INIT-038,2027-11,58333,,Opex reduction,High
+INIT-038,2027-12,58333,,Opex reduction,High
+INIT-039,2026-01,0,0,Opex reduction,Low
+INIT-039,2026-02,0,0,Opex reduction,Low
+INIT-039,2026-03,0,0,Opex reduction,Low
+INIT-039,2026-04,0,0,Opex reduction,Low
+INIT-039,2026-05,0,0,Opex reduction,Low
+INIT-039,2026-06,0,0,Opex reduction,Low
+INIT-039,2026-07,0,0,Opex reduction,Low
+INIT-039,2026-08,0,,Opex reduction,Low
+INIT-039,2026-09,0,,Opex reduction,Low
+INIT-039,2026-10,0,,Opex reduction,Low
+INIT-039,2026-11,0,,Opex reduction,Low
+INIT-039,2026-12,0,,Opex reduction,Low
+INIT-039,2027-01,0,,Opex reduction,Low
+INIT-039,2027-02,0,,Opex reduction,Low
+INIT-039,2027-03,0,,Opex reduction,Low
+INIT-039,2027-04,0,,Opex reduction,Low
+INIT-039,2027-05,0,,Opex reduction,Low
+INIT-039,2027-06,0,,Opex reduction,Low
+INIT-039,2027-07,0,,Opex reduction,Low
+INIT-039,2027-08,0,,Opex reduction,Low
+INIT-039,2027-09,0,,Opex reduction,Low
+INIT-039,2027-10,0,,Opex reduction,Low
+INIT-039,2027-11,0,,Opex reduction,Low
+INIT-039,2027-12,0,,Opex reduction,Low
+INIT-040,2026-01,0,0,Opex reduction,Med
+INIT-040,2026-02,0,0,Opex reduction,Med
+INIT-040,2026-03,0,0,Opex reduction,Med
+INIT-040,2026-04,0,0,Opex reduction,Med
+INIT-040,2026-05,0,0,Opex reduction,Med
+INIT-040,2026-06,0,0,Opex reduction,Med
+INIT-040,2026-07,0,0,Opex reduction,Med
+INIT-040,2026-08,0,,Opex reduction,Med
+INIT-040,2026-09,0,,Opex reduction,Med
+INIT-040,2026-10,0,,Opex reduction,Med
+INIT-040,2026-11,0,,Opex reduction,Med
+INIT-040,2026-12,0,,Opex reduction,Med
+INIT-040,2027-01,0,,Opex reduction,Med
+INIT-040,2027-02,0,,Opex reduction,Med
+INIT-040,2027-03,0,,Opex reduction,Med
+INIT-040,2027-04,0,,Opex reduction,Med
+INIT-040,2027-05,0,,Opex reduction,Med
+INIT-040,2027-06,9375,,Opex reduction,Med
+INIT-040,2027-07,18750,,Opex reduction,Med
+INIT-040,2027-08,28125,,Opex reduction,Med
+INIT-040,2027-09,37500,,Opex reduction,Med
+INIT-040,2027-10,46875,,Opex reduction,Med
+INIT-040,2027-11,56250,,Opex reduction,Med
+INIT-040,2027-12,65625,,Opex reduction,Med
+INIT-041,2026-01,0,0,Opex reduction,High
+INIT-041,2026-02,0,0,Opex reduction,High
+INIT-041,2026-03,0,0,Opex reduction,High
+INIT-041,2026-04,0,0,Opex reduction,High
+INIT-041,2026-05,0,0,Opex reduction,High
+INIT-041,2026-06,0,0,Opex reduction,High
+INIT-041,2026-07,0,0,Opex reduction,High
+INIT-041,2026-08,0,,Opex reduction,High
+INIT-041,2026-09,0,,Opex reduction,High
+INIT-041,2026-10,0,,Opex reduction,High
+INIT-041,2026-11,0,,Opex reduction,High
+INIT-041,2026-12,0,,Opex reduction,High
+INIT-041,2027-01,0,,Opex reduction,High
+INIT-041,2027-02,0,,Opex reduction,High
+INIT-041,2027-03,0,,Opex reduction,High
+INIT-041,2027-04,0,,Opex reduction,High
+INIT-041,2027-05,0,,Opex reduction,High
+INIT-041,2027-06,0,,Opex reduction,High
+INIT-041,2027-07,0,,Opex reduction,High
+INIT-041,2027-08,0,,Opex reduction,High
+INIT-041,2027-09,0,,Opex reduction,High
+INIT-041,2027-10,0,,Opex reduction,High
+INIT-041,2027-11,0,,Opex reduction,High
+INIT-041,2027-12,0,,Opex reduction,High
+INIT-042,2026-01,0,0,Gross margin,Med
+INIT-042,2026-02,0,0,Gross margin,Med
+INIT-042,2026-03,0,0,Gross margin,Med
+INIT-042,2026-04,0,0,Gross margin,Med
+INIT-042,2026-05,0,0,Gross margin,Med
+INIT-042,2026-06,0,0,Gross margin,Med
+INIT-042,2026-07,0,0,Gross margin,Med
+INIT-042,2026-08,0,,Gross margin,Med
+INIT-042,2026-09,0,,Gross margin,Med
+INIT-042,2026-10,0,,Gross margin,Med
+INIT-042,2026-11,0,,Gross margin,Med
+INIT-042,2026-12,0,,Gross margin,Med
+INIT-042,2027-01,0,,Gross margin,Med
+INIT-042,2027-02,0,,Gross margin,Med
+INIT-042,2027-03,0,,Gross margin,Med
+INIT-042,2027-04,15208,,Gross margin,Med
+INIT-042,2027-05,30417,,Gross margin,Med
+INIT-042,2027-06,45625,,Gross margin,Med
+INIT-042,2027-07,60833,,Gross margin,Med
+INIT-042,2027-08,60833,,Gross margin,Med
+INIT-042,2027-09,60833,,Gross margin,Med
+INIT-042,2027-10,60833,,Gross margin,Med
+INIT-042,2027-11,60833,,Gross margin,Med
+INIT-042,2027-12,60833,,Gross margin,Med
+INIT-043,2026-01,0,0,Gross margin,Med
+INIT-043,2026-02,0,0,Gross margin,Med
+INIT-043,2026-03,0,0,Gross margin,Med
+INIT-043,2026-04,0,0,Gross margin,Med
+INIT-043,2026-05,0,0,Gross margin,Med
+INIT-043,2026-06,0,0,Gross margin,Med
+INIT-043,2026-07,0,0,Gross margin,Med
+INIT-043,2026-08,0,,Gross margin,Med
+INIT-043,2026-09,0,,Gross margin,Med
+INIT-043,2026-10,0,,Gross margin,Med
+INIT-043,2026-11,0,,Gross margin,Med
+INIT-043,2026-12,0,,Gross margin,Med
+INIT-043,2027-01,0,,Gross margin,Med
+INIT-043,2027-02,0,,Gross margin,Med
+INIT-043,2027-03,0,,Gross margin,Med
+INIT-043,2027-04,0,,Gross margin,Med
+INIT-043,2027-05,0,,Gross margin,Med
+INIT-043,2027-06,0,,Gross margin,Med
+INIT-043,2027-07,0,,Gross margin,Med
+INIT-043,2027-08,0,,Gross margin,Med
+INIT-043,2027-09,0,,Gross margin,Med
+INIT-043,2027-10,12315,,Gross margin,Med
+INIT-043,2027-11,24630,,Gross margin,Med
+INIT-043,2027-12,36944,,Gross margin,Med
+INIT-044,2026-01,0,0,Gross margin,Med
+INIT-044,2026-02,0,0,Gross margin,Med
+INIT-044,2026-03,0,0,Gross margin,Med
+INIT-044,2026-04,0,0,Gross margin,Med
+INIT-044,2026-05,0,0,Gross margin,Med
+INIT-044,2026-06,0,0,Gross margin,Med
+INIT-044,2026-07,0,0,Gross margin,Med
+INIT-044,2026-08,0,,Gross margin,Med
+INIT-044,2026-09,0,,Gross margin,Med
+INIT-044,2026-10,0,,Gross margin,Med
+INIT-044,2026-11,0,,Gross margin,Med
+INIT-044,2026-12,0,,Gross margin,Med
+INIT-044,2027-01,0,,Gross margin,Med
+INIT-044,2027-02,0,,Gross margin,Med
+INIT-044,2027-03,0,,Gross margin,Med
+INIT-044,2027-04,0,,Gross margin,Med
+INIT-044,2027-05,0,,Gross margin,Med
+INIT-044,2027-06,0,,Gross margin,Med
+INIT-044,2027-07,0,,Gross margin,Med
+INIT-044,2027-08,0,,Gross margin,Med
+INIT-044,2027-09,0,,Gross margin,Med
+INIT-044,2027-10,0,,Gross margin,Med
+INIT-044,2027-11,13194,,Gross margin,Med
+INIT-044,2027-12,26389,,Gross margin,Med
+INIT-045,2026-01,0,0,Gross margin,Med
+INIT-045,2026-02,0,0,Gross margin,Med
+INIT-045,2026-03,0,0,Gross margin,Med
+INIT-045,2026-04,0,0,Gross margin,Med
+INIT-045,2026-05,0,0,Gross margin,Med
+INIT-045,2026-06,0,0,Gross margin,Med
+INIT-045,2026-07,0,0,Gross margin,Med
+INIT-045,2026-08,0,,Gross margin,Med
+INIT-045,2026-09,0,,Gross margin,Med
+INIT-045,2026-10,0,,Gross margin,Med
+INIT-045,2026-11,0,,Gross margin,Med
+INIT-045,2026-12,0,,Gross margin,Med
+INIT-045,2027-01,0,,Gross margin,Med
+INIT-045,2027-02,0,,Gross margin,Med
+INIT-045,2027-03,0,,Gross margin,Med
+INIT-045,2027-04,0,,Gross margin,Med
+INIT-045,2027-05,0,,Gross margin,Med
+INIT-045,2027-06,0,,Gross margin,Med
+INIT-045,2027-07,0,,Gross margin,Med
+INIT-045,2027-08,0,,Gross margin,Med
+INIT-045,2027-09,0,,Gross margin,Med
+INIT-045,2027-10,0,,Gross margin,Med
+INIT-045,2027-11,0,,Gross margin,Med
+INIT-045,2027-12,0,,Gross margin,Med
+INIT-046,2026-01,0,0,Gross margin,Low
+INIT-046,2026-02,0,0,Gross margin,Low
+INIT-046,2026-03,0,0,Gross margin,Low
+INIT-046,2026-04,0,0,Gross margin,Low
+INIT-046,2026-05,0,0,Gross margin,Low
+INIT-046,2026-06,0,0,Gross margin,Low
+INIT-046,2026-07,0,0,Gross margin,Low
+INIT-046,2026-08,0,,Gross margin,Low
+INIT-046,2026-09,0,,Gross margin,Low
+INIT-046,2026-10,0,,Gross margin,Low
+INIT-046,2026-11,0,,Gross margin,Low
+INIT-046,2026-12,0,,Gross margin,Low
+INIT-046,2027-01,0,,Gross margin,Low
+INIT-046,2027-02,0,,Gross margin,Low
+INIT-046,2027-03,0,,Gross margin,Low
+INIT-046,2027-04,0,,Gross margin,Low
+INIT-046,2027-05,0,,Gross margin,Low
+INIT-046,2027-06,0,,Gross margin,Low
+INIT-046,2027-07,0,,Gross margin,Low
+INIT-046,2027-08,0,,Gross margin,Low
+INIT-046,2027-09,0,,Gross margin,Low
+INIT-046,2027-10,0,,Gross margin,Low
+INIT-046,2027-11,0,,Gross margin,Low
+INIT-046,2027-12,0,,Gross margin,Low
+INIT-047,2026-01,0,0,Gross margin,Low
+INIT-047,2026-02,0,0,Gross margin,Low
+INIT-047,2026-03,0,0,Gross margin,Low
+INIT-047,2026-04,0,0,Gross margin,Low
+INIT-047,2026-05,0,0,Gross margin,Low
+INIT-047,2026-06,0,0,Gross margin,Low
+INIT-047,2026-07,0,0,Gross margin,Low
+INIT-047,2026-08,0,,Gross margin,Low
+INIT-047,2026-09,0,,Gross margin,Low
+INIT-047,2026-10,0,,Gross margin,Low
+INIT-047,2026-11,0,,Gross margin,Low
+INIT-047,2026-12,0,,Gross margin,Low
+INIT-047,2027-01,0,,Gross margin,Low
+INIT-047,2027-02,0,,Gross margin,Low
+INIT-047,2027-03,0,,Gross margin,Low
+INIT-047,2027-04,0,,Gross margin,Low
+INIT-047,2027-05,0,,Gross margin,Low
+INIT-047,2027-06,0,,Gross margin,Low
+INIT-047,2027-07,0,,Gross margin,Low
+INIT-047,2027-08,0,,Gross margin,Low
+INIT-047,2027-09,0,,Gross margin,Low
+INIT-047,2027-10,0,,Gross margin,Low
+INIT-047,2027-11,0,,Gross margin,Low
+INIT-047,2027-12,0,,Gross margin,Low
+INIT-048,2026-01,0,0,Gross margin,Med
+INIT-048,2026-02,0,0,Gross margin,Med
+INIT-048,2026-03,0,0,Gross margin,Med
+INIT-048,2026-04,0,0,Gross margin,Med
+INIT-048,2026-05,0,0,Gross margin,Med
+INIT-048,2026-06,0,0,Gross margin,Med
+INIT-048,2026-07,0,0,Gross margin,Med
+INIT-048,2026-08,0,,Gross margin,Med
+INIT-048,2026-09,0,,Gross margin,Med
+INIT-048,2026-10,0,,Gross margin,Med
+INIT-048,2026-11,0,,Gross margin,Med
+INIT-048,2026-12,0,,Gross margin,Med
+INIT-048,2027-01,0,,Gross margin,Med
+INIT-048,2027-02,0,,Gross margin,Med
+INIT-048,2027-03,0,,Gross margin,Med
+INIT-048,2027-04,0,,Gross margin,Med
+INIT-048,2027-05,12593,,Gross margin,Med
+INIT-048,2027-06,25185,,Gross margin,Med
+INIT-048,2027-07,37778,,Gross margin,Med
+INIT-048,2027-08,50370,,Gross margin,Med
+INIT-048,2027-09,62963,,Gross margin,Med
+INIT-048,2027-10,75556,,Gross margin,Med
+INIT-048,2027-11,88148,,Gross margin,Med
+INIT-048,2027-12,100741,,Gross margin,Med
+INIT-049,2026-01,0,0,Opex reduction,High
+INIT-049,2026-02,0,0,Opex reduction,High
+INIT-049,2026-03,0,0,Opex reduction,High
+INIT-049,2026-04,0,0,Opex reduction,High
+INIT-049,2026-05,0,0,Opex reduction,High
+INIT-049,2026-06,0,0,Opex reduction,High
+INIT-049,2026-07,0,0,Opex reduction,High
+INIT-049,2026-08,0,,Opex reduction,High
+INIT-049,2026-09,0,,Opex reduction,High
+INIT-049,2026-10,0,,Opex reduction,High
+INIT-049,2026-11,0,,Opex reduction,High
+INIT-049,2026-12,0,,Opex reduction,High
+INIT-049,2027-01,0,,Opex reduction,High
+INIT-049,2027-02,0,,Opex reduction,High
+INIT-049,2027-03,0,,Opex reduction,High
+INIT-049,2027-04,0,,Opex reduction,High
+INIT-049,2027-05,0,,Opex reduction,High
+INIT-049,2027-06,9444,,Opex reduction,High
+INIT-049,2027-07,18889,,Opex reduction,High
+INIT-049,2027-08,28333,,Opex reduction,High
+INIT-049,2027-09,37778,,Opex reduction,High
+INIT-049,2027-10,47222,,Opex reduction,High
+INIT-049,2027-11,56667,,Opex reduction,High
+INIT-049,2027-12,66111,,Opex reduction,High
+INIT-050,2026-01,0,0,Opex reduction,Med
+INIT-050,2026-02,0,0,Opex reduction,Med
+INIT-050,2026-03,0,0,Opex reduction,Med
+INIT-050,2026-04,0,0,Opex reduction,Med
+INIT-050,2026-05,0,0,Opex reduction,Med
+INIT-050,2026-06,0,0,Opex reduction,Med
+INIT-050,2026-07,0,0,Opex reduction,Med
+INIT-050,2026-08,0,,Opex reduction,Med
+INIT-050,2026-09,0,,Opex reduction,Med
+INIT-050,2026-10,0,,Opex reduction,Med
+INIT-050,2026-11,0,,Opex reduction,Med
+INIT-050,2026-12,0,,Opex reduction,Med
+INIT-050,2027-01,0,,Opex reduction,Med
+INIT-050,2027-02,0,,Opex reduction,Med
+INIT-050,2027-03,0,,Opex reduction,Med
+INIT-050,2027-04,0,,Opex reduction,Med
+INIT-050,2027-05,0,,Opex reduction,Med
+INIT-050,2027-06,24653,,Opex reduction,Med
+INIT-050,2027-07,49306,,Opex reduction,Med
+INIT-050,2027-08,73958,,Opex reduction,Med
+INIT-050,2027-09,98611,,Opex reduction,Med
+INIT-050,2027-10,123264,,Opex reduction,Med
+INIT-050,2027-11,147917,,Opex reduction,Med
+INIT-050,2027-12,172569,,Opex reduction,Med
+INIT-051,2026-01,0,0,Opex reduction,High
+INIT-051,2026-02,0,0,Opex reduction,High
+INIT-051,2026-03,0,0,Opex reduction,High
+INIT-051,2026-04,0,0,Opex reduction,High
+INIT-051,2026-05,0,0,Opex reduction,High
+INIT-051,2026-06,0,0,Opex reduction,High
+INIT-051,2026-07,0,0,Opex reduction,High
+INIT-051,2026-08,0,,Opex reduction,High
+INIT-051,2026-09,0,,Opex reduction,High
+INIT-051,2026-10,0,,Opex reduction,High
+INIT-051,2026-11,0,,Opex reduction,High
+INIT-051,2026-12,0,,Opex reduction,High
+INIT-051,2027-01,0,,Opex reduction,High
+INIT-051,2027-02,0,,Opex reduction,High
+INIT-051,2027-03,0,,Opex reduction,High
+INIT-051,2027-04,0,,Opex reduction,High
+INIT-051,2027-05,0,,Opex reduction,High
+INIT-051,2027-06,0,,Opex reduction,High
+INIT-051,2027-07,0,,Opex reduction,High
+INIT-051,2027-08,0,,Opex reduction,High
+INIT-051,2027-09,0,,Opex reduction,High
+INIT-051,2027-10,0,,Opex reduction,High
+INIT-051,2027-11,0,,Opex reduction,High
+INIT-051,2027-12,0,,Opex reduction,High
+INIT-052,2026-01,0,0,Opex reduction,Med
+INIT-052,2026-02,0,0,Opex reduction,Med
+INIT-052,2026-03,0,0,Opex reduction,Med
+INIT-052,2026-04,0,0,Opex reduction,Med
+INIT-052,2026-05,0,0,Opex reduction,Med
+INIT-052,2026-06,0,0,Opex reduction,Med
+INIT-052,2026-07,0,0,Opex reduction,Med
+INIT-052,2026-08,0,,Opex reduction,Med
+INIT-052,2026-09,0,,Opex reduction,Med
+INIT-052,2026-10,0,,Opex reduction,Med
+INIT-052,2026-11,0,,Opex reduction,Med
+INIT-052,2026-12,0,,Opex reduction,Med
+INIT-052,2027-01,0,,Opex reduction,Med
+INIT-052,2027-02,0,,Opex reduction,Med
+INIT-052,2027-03,0,,Opex reduction,Med
+INIT-052,2027-04,0,,Opex reduction,Med
+INIT-052,2027-05,6806,,Opex reduction,Med
+INIT-052,2027-06,13611,,Opex reduction,Med
+INIT-052,2027-07,20417,,Opex reduction,Med
+INIT-052,2027-08,27222,,Opex reduction,Med
+INIT-052,2027-09,34028,,Opex reduction,Med
+INIT-052,2027-10,40833,,Opex reduction,Med
+INIT-052,2027-11,47639,,Opex reduction,Med
+INIT-052,2027-12,54444,,Opex reduction,Med
+INIT-053,2026-01,0,0,Opex reduction,Med
+INIT-053,2026-02,0,0,Opex reduction,Med
+INIT-053,2026-03,0,0,Opex reduction,Med
+INIT-053,2026-04,0,0,Opex reduction,Med
+INIT-053,2026-05,0,0,Opex reduction,Med
+INIT-053,2026-06,0,0,Opex reduction,Med
+INIT-053,2026-07,0,0,Opex reduction,Med
+INIT-053,2026-08,0,,Opex reduction,Med
+INIT-053,2026-09,0,,Opex reduction,Med
+INIT-053,2026-10,0,,Opex reduction,Med
+INIT-053,2026-11,0,,Opex reduction,Med
+INIT-053,2026-12,0,,Opex reduction,Med
+INIT-053,2027-01,0,,Opex reduction,Med
+INIT-053,2027-02,0,,Opex reduction,Med
+INIT-053,2027-03,0,,Opex reduction,Med
+INIT-053,2027-04,0,,Opex reduction,Med
+INIT-053,2027-05,0,,Opex reduction,Med
+INIT-053,2027-06,0,,Opex reduction,Med
+INIT-053,2027-07,0,,Opex reduction,Med
+INIT-053,2027-08,0,,Opex reduction,Med
+INIT-053,2027-09,0,,Opex reduction,Med
+INIT-053,2027-10,27083,,Opex reduction,Med
+INIT-053,2027-11,54167,,Opex reduction,Med
+INIT-053,2027-12,81250,,Opex reduction,Med
+INIT-054,2026-01,0,0,Cost avoided (non-cash),High
+INIT-054,2026-02,0,0,Cost avoided (non-cash),High
+INIT-054,2026-03,0,0,Cost avoided (non-cash),High
+INIT-054,2026-04,0,0,Cost avoided (non-cash),High
+INIT-054,2026-05,0,0,Cost avoided (non-cash),High
+INIT-054,2026-06,0,0,Cost avoided (non-cash),High
+INIT-054,2026-07,0,0,Cost avoided (non-cash),High
+INIT-054,2026-08,0,,Cost avoided (non-cash),High
+INIT-054,2026-09,0,,Cost avoided (non-cash),High
+INIT-054,2026-10,0,,Cost avoided (non-cash),High
+INIT-054,2026-11,0,,Cost avoided (non-cash),High
+INIT-054,2026-12,0,,Cost avoided (non-cash),High
+INIT-054,2027-01,32778,,Cost avoided (non-cash),High
+INIT-054,2027-02,65556,,Cost avoided (non-cash),High
+INIT-054,2027-03,98333,,Cost avoided (non-cash),High
+INIT-054,2027-04,98333,,Cost avoided (non-cash),High
+INIT-054,2027-05,98333,,Cost avoided (non-cash),High
+INIT-054,2027-06,98333,,Cost avoided (non-cash),High
+INIT-054,2027-07,98333,,Cost avoided (non-cash),High
+INIT-054,2027-08,98333,,Cost avoided (non-cash),High
+INIT-054,2027-09,98333,,Cost avoided (non-cash),High
+INIT-054,2027-10,98333,,Cost avoided (non-cash),High
+INIT-054,2027-11,98333,,Cost avoided (non-cash),High
+INIT-054,2027-12,98333,,Cost avoided (non-cash),High
+INIT-055,2026-01,0,0,Opex reduction,Low
+INIT-055,2026-02,0,0,Opex reduction,Low
+INIT-055,2026-03,0,0,Opex reduction,Low
+INIT-055,2026-04,0,0,Opex reduction,Low
+INIT-055,2026-05,0,0,Opex reduction,Low
+INIT-055,2026-06,0,0,Opex reduction,Low
+INIT-055,2026-07,0,0,Opex reduction,Low
+INIT-055,2026-08,0,,Opex reduction,Low
+INIT-055,2026-09,0,,Opex reduction,Low
+INIT-055,2026-10,0,,Opex reduction,Low
+INIT-055,2026-11,34583,,Opex reduction,Low
+INIT-055,2026-12,69167,,Opex reduction,Low
+INIT-055,2027-01,103750,,Opex reduction,Low
+INIT-055,2027-02,138333,,Opex reduction,Low
+INIT-055,2027-03,138333,,Opex reduction,Low
+INIT-055,2027-04,138333,,Opex reduction,Low
+INIT-055,2027-05,138333,,Opex reduction,Low
+INIT-055,2027-06,138333,,Opex reduction,Low
+INIT-055,2027-07,138333,,Opex reduction,Low
+INIT-055,2027-08,138333,,Opex reduction,Low
+INIT-055,2027-09,138333,,Opex reduction,Low
+INIT-055,2027-10,138333,,Opex reduction,Low
+INIT-055,2027-11,138333,,Opex reduction,Low
+INIT-055,2027-12,138333,,Opex reduction,Low
+INIT-056,2026-01,0,0,Non-financial / risk,Low
+INIT-056,2026-02,0,0,Non-financial / risk,Low
+INIT-056,2026-03,0,0,Non-financial / risk,Low
+INIT-056,2026-04,0,0,Non-financial / risk,Low
+INIT-056,2026-05,0,0,Non-financial / risk,Low
+INIT-056,2026-06,0,0,Non-financial / risk,Low
+INIT-056,2026-07,0,0,Non-financial / risk,Low
+INIT-056,2026-08,0,,Non-financial / risk,Low
+INIT-056,2026-09,0,,Non-financial / risk,Low
+INIT-056,2026-10,0,,Non-financial / risk,Low
+INIT-056,2026-11,0,,Non-financial / risk,Low
+INIT-056,2026-12,0,,Non-financial / risk,Low
+INIT-056,2027-01,0,,Non-financial / risk,Low
+INIT-056,2027-02,0,,Non-financial / risk,Low
+INIT-056,2027-03,0,,Non-financial / risk,Low
+INIT-056,2027-04,0,,Non-financial / risk,Low
+INIT-056,2027-05,0,,Non-financial / risk,Low
+INIT-056,2027-06,6250,,Non-financial / risk,Low
+INIT-056,2027-07,12500,,Non-financial / risk,Low
+INIT-056,2027-08,18750,,Non-financial / risk,Low
+INIT-056,2027-09,25000,,Non-financial / risk,Low
+INIT-056,2027-10,31250,,Non-financial / risk,Low
+INIT-056,2027-11,37500,,Non-financial / risk,Low
+INIT-056,2027-12,37500,,Non-financial / risk,Low
+INIT-057,2026-01,0,0,Non-financial / risk,Low
+INIT-057,2026-02,0,0,Non-financial / risk,Low
+INIT-057,2026-03,0,0,Non-financial / risk,Low
+INIT-057,2026-04,0,0,Non-financial / risk,Low
+INIT-057,2026-05,0,0,Non-financial / risk,Low
+INIT-057,2026-06,0,0,Non-financial / risk,Low
+INIT-057,2026-07,0,0,Non-financial / risk,Low
+INIT-057,2026-08,0,,Non-financial / risk,Low
+INIT-057,2026-09,0,,Non-financial / risk,Low
+INIT-057,2026-10,0,,Non-financial / risk,Low
+INIT-057,2026-11,0,,Non-financial / risk,Low
+INIT-057,2026-12,0,,Non-financial / risk,Low
+INIT-057,2027-01,0,,Non-financial / risk,Low
+INIT-057,2027-02,0,,Non-financial / risk,Low
+INIT-057,2027-03,0,,Non-financial / risk,Low
+INIT-057,2027-04,0,,Non-financial / risk,Low
+INIT-057,2027-05,926,,Non-financial / risk,Low
+INIT-057,2027-06,1852,,Non-financial / risk,Low
+INIT-057,2027-07,2778,,Non-financial / risk,Low
+INIT-057,2027-08,3704,,Non-financial / risk,Low
+INIT-057,2027-09,4630,,Non-financial / risk,Low
+INIT-057,2027-10,5556,,Non-financial / risk,Low
+INIT-057,2027-11,6481,,Non-financial / risk,Low
+INIT-057,2027-12,7407,,Non-financial / risk,Low
+INIT-058,2026-01,0,0,Non-financial / risk,Low
+INIT-058,2026-02,0,0,Non-financial / risk,Low
+INIT-058,2026-03,0,0,Non-financial / risk,Low
+INIT-058,2026-04,0,0,Non-financial / risk,Low
+INIT-058,2026-05,0,0,Non-financial / risk,Low
+INIT-058,2026-06,0,0,Non-financial / risk,Low
+INIT-058,2026-07,0,0,Non-financial / risk,Low
+INIT-058,2026-08,0,,Non-financial / risk,Low
+INIT-058,2026-09,0,,Non-financial / risk,Low
+INIT-058,2026-10,0,,Non-financial / risk,Low
+INIT-058,2026-11,0,,Non-financial / risk,Low
+INIT-058,2026-12,0,,Non-financial / risk,Low
+INIT-058,2027-01,4028,,Non-financial / risk,Low
+INIT-058,2027-02,8056,,Non-financial / risk,Low
+INIT-058,2027-03,12083,,Non-financial / risk,Low
+INIT-058,2027-04,16111,,Non-financial / risk,Low
+INIT-058,2027-05,20139,,Non-financial / risk,Low
+INIT-058,2027-06,24167,,Non-financial / risk,Low
+INIT-058,2027-07,24167,,Non-financial / risk,Low
+INIT-058,2027-08,24167,,Non-financial / risk,Low
+INIT-058,2027-09,24167,,Non-financial / risk,Low
+INIT-058,2027-10,24167,,Non-financial / risk,Low
+INIT-058,2027-11,24167,,Non-financial / risk,Low
+INIT-058,2027-12,24167,,Non-financial / risk,Low
+INIT-059,2026-01,0,0,Non-financial / risk,Low
+INIT-059,2026-02,0,0,Non-financial / risk,Low
+INIT-059,2026-03,0,0,Non-financial / risk,Low
+INIT-059,2026-04,0,0,Non-financial / risk,Low
+INIT-059,2026-05,0,0,Non-financial / risk,Low
+INIT-059,2026-06,0,0,Non-financial / risk,Low
+INIT-059,2026-07,0,0,Non-financial / risk,Low
+INIT-059,2026-08,0,,Non-financial / risk,Low
+INIT-059,2026-09,0,,Non-financial / risk,Low
+INIT-059,2026-10,0,,Non-financial / risk,Low
+INIT-059,2026-11,0,,Non-financial / risk,Low
+INIT-059,2026-12,0,,Non-financial / risk,Low
+INIT-059,2027-01,0,,Non-financial / risk,Low
+INIT-059,2027-02,0,,Non-financial / risk,Low
+INIT-059,2027-03,0,,Non-financial / risk,Low
+INIT-059,2027-04,0,,Non-financial / risk,Low
+INIT-059,2027-05,0,,Non-financial / risk,Low
+INIT-059,2027-06,0,,Non-financial / risk,Low
+INIT-059,2027-07,0,,Non-financial / risk,Low
+INIT-059,2027-08,0,,Non-financial / risk,Low
+INIT-059,2027-09,0,,Non-financial / risk,Low
+INIT-059,2027-10,0,,Non-financial / risk,Low
+INIT-059,2027-11,3194,,Non-financial / risk,Low
+INIT-059,2027-12,6389,,Non-financial / risk,Low
+INIT-060,2026-01,0,0,Non-financial / risk,Med
+INIT-060,2026-02,0,0,Non-financial / risk,Med
+INIT-060,2026-03,0,0,Non-financial / risk,Med
+INIT-060,2026-04,0,0,Non-financial / risk,Med
+INIT-060,2026-05,0,0,Non-financial / risk,Med
+INIT-060,2026-06,0,0,Non-financial / risk,Med
+INIT-060,2026-07,0,0,Non-financial / risk,Med
+INIT-060,2026-08,0,,Non-financial / risk,Med
+INIT-060,2026-09,0,,Non-financial / risk,Med
+INIT-060,2026-10,0,,Non-financial / risk,Med
+INIT-060,2026-11,0,,Non-financial / risk,Med
+INIT-060,2026-12,0,,Non-financial / risk,Med
+INIT-060,2027-01,0,,Non-financial / risk,Med
+INIT-060,2027-02,0,,Non-financial / risk,Med
+INIT-060,2027-03,0,,Non-financial / risk,Med
+INIT-060,2027-04,0,,Non-financial / risk,Med
+INIT-060,2027-05,0,,Non-financial / risk,Med
+INIT-060,2027-06,0,,Non-financial / risk,Med
+INIT-060,2027-07,0,,Non-financial / risk,Med
+INIT-060,2027-08,0,,Non-financial / risk,Med
+INIT-060,2027-09,0,,Non-financial / risk,Med
+INIT-060,2027-10,0,,Non-financial / risk,Med
+INIT-060,2027-11,0,,Non-financial / risk,Med
+INIT-060,2027-12,0,,Non-financial / risk,Med

@@ -1,0 +1,260 @@
+milestone_id,initiative_id,name,type,baseline_date,forecast_date,actual_date,status,slip_days,owner
+MS-0001,INIT-001,Mobilisation & Scope Sign-Off,Gate,2025-12-21,2025-12-21,2025-12-21,Complete,0,Rafael Farouk
+MS-0002,INIT-001,Design Complete,Deliverable,2026-02-12,2026-02-19,2026-02-19,Complete,7,Rafael Farouk
+MS-0003,INIT-001,Build Complete,Deliverable,2026-04-06,2026-04-06,2026-04-06,Complete,0,Rafael Farouk
+MS-0004,INIT-001,Stage Gate 2 - Ready for Test,Gate,2026-05-08,2026-05-08,2026-05-08,Complete,0,Elise Fraser
+MS-0005,INIT-001,Benefit Checkpoint 1,Benefit Checkpoint,2026-07-11,2026-07-18,2026-07-18,Complete,7,Rafael Farouk
+MS-0006,INIT-002,Mobilisation & Scope Sign-Off,Gate,2026-03-15,2026-03-25,2026-03-25,Complete,10,Lena Doherty
+MS-0007,INIT-002,Design Complete,Deliverable,2026-07-14,2026-08-18,,In Progress,35,Beatriz Sandison
+MS-0008,INIT-002,Build Complete,Deliverable,2026-11-12,2026-11-12,,Not Started,0,Lena Doherty
+MS-0009,INIT-002,Stage Gate 2 - Ready for Test,Gate,2027-01-24,2027-02-11,,Not Started,18,Isla Farouk
+MS-0010,INIT-002,Go-Live,Go-Live,2027-05-01,2027-05-26,,Not Started,25,Lena Doherty
+MS-0011,INIT-002,Benefit Checkpoint 1,Benefit Checkpoint,2027-06-19,2027-06-29,,In Progress,10,Amara Buchanan
+MS-0012,INIT-003,Mobilisation & Scope Sign-Off,Gate,2025-11-27,2025-12-18,2025-12-18,Complete,21,Lena Duval
+MS-0013,INIT-003,Build Complete,Deliverable,2026-04-13,2026-05-04,2026-05-04,Complete,21,Lena Kilbride
+MS-0014,INIT-003,Go-Live,Go-Live,2026-07-17,2026-09-15,,Missed,60,Clara Doherty
+MS-0015,INIT-004,Mobilisation & Scope Sign-Off,Gate,2026-02-18,2026-03-08,2026-03-08,Complete,18,Yusuf Mendes
+MS-0016,INIT-004,Design Complete,Deliverable,2026-04-19,2026-05-24,,Missed,35,Gregor Kaur
+MS-0017,INIT-004,Build Complete,Deliverable,2026-06-19,2026-07-07,2026-07-07,Complete,18,Yusuf Mendes
+MS-0018,INIT-004,Go-Live,Go-Live,2026-09-11,2026-09-16,,Not Started,5,Yusuf Mendes
+MS-0019,INIT-004,Benefit Checkpoint 1,Benefit Checkpoint,2026-10-06,2026-10-31,,In Progress,25,Yusuf Mendes
+MS-0020,INIT-005,Mobilisation & Scope Sign-Off,Gate,2026-03-22,2026-03-29,2026-03-29,Complete,7,Bjorn Whitfield
+MS-0021,INIT-005,Build Complete,Deliverable,2027-01-05,2027-01-05,,In Progress,0,Bjorn Bramley
+MS-0022,INIT-005,Go-Live,Go-Live,2027-07-26,2027-07-29,,In Progress,3,Isla Duval
+MS-0023,INIT-006,Mobilisation & Scope Sign-Off,Gate,2026-02-21,2026-02-26,2026-02-26,Complete,5,Clara Arnesen
+MS-0024,INIT-006,Design Complete,Deliverable,2026-05-30,2026-05-30,2026-05-30,Complete,0,Gregor Rahman
+MS-0025,INIT-006,Stage Gate 2 - Ready for Test,Gate,2026-11-04,2026-11-04,,Not Started,0,Idris Lindqvist
+MS-0026,INIT-006,Go-Live,Go-Live,2027-01-21,2027-02-25,,Not Started,35,Gregor Rahman
+MS-0027,INIT-006,Benefit Checkpoint 1,Benefit Checkpoint,2027-03-02,2027-03-07,,Not Started,5,Gregor Rahman
+MS-0028,INIT-007,Mobilisation & Scope Sign-Off,Gate,2026-05-24,2026-05-27,2026-05-27,Complete,3,Rohan Novak
+MS-0029,INIT-007,Design Complete,Deliverable,2026-08-16,2026-08-23,,In Progress,7,Rohan Novak
+MS-0030,INIT-007,Build Complete,Deliverable,2026-11-08,2026-11-15,,In Progress,7,Rohan Novak
+MS-0031,INIT-007,Stage Gate 2 - Ready for Test,Gate,2026-12-28,2026-12-28,,Not Started,0,Rohan Novak
+MS-0032,INIT-007,Go-Live,Go-Live,2027-03-05,2027-03-08,,Not Started,3,Rohan Novak
+MS-0033,INIT-007,Benefit Checkpoint 1,Benefit Checkpoint,2027-04-08,2027-04-08,,Not Started,0,Rohan Novak
+MS-0034,INIT-008,Mobilisation & Scope Sign-Off,Gate,2026-05-08,2026-05-08,2026-05-08,Complete,0,Idris Corrigan
+MS-0035,INIT-008,Design Complete,Deliverable,2026-07-31,2026-08-18,,In Progress,18,Idris Corrigan
+MS-0036,INIT-008,Build Complete,Deliverable,2026-10-22,2026-11-26,,Not Started,35,Idris Corrigan
+MS-0037,INIT-008,Go-Live,Go-Live,2027-02-16,2027-02-16,,Not Started,0,Idris Corrigan
+MS-0038,INIT-008,Benefit Checkpoint 1,Benefit Checkpoint,2027-03-22,2027-04-09,,In Progress,18,Idris Corrigan
+MS-0039,INIT-009,Mobilisation & Scope Sign-Off,Gate,2026-11-18,2026-11-18,,Not Started,0,Amara Corrigan
+MS-0040,INIT-009,Build Complete,Deliverable,2027-02-16,2027-02-19,,Not Started,3,Anika Menzies
+MS-0041,INIT-009,Go-Live,Go-Live,2027-04-20,2027-04-20,,Not Started,0,Elise Fraser
+MS-0042,INIT-010,Mobilisation & Scope Sign-Off,Gate,2026-10-07,2026-10-07,,Not Started,0,Clara Okonkwo
+MS-0043,INIT-010,Design Complete,Deliverable,2027-01-21,2027-01-21,,Not Started,0,Sinead Boateng
+MS-0044,INIT-010,Go-Live,Go-Live,2027-10-04,2027-10-11,,Not Started,7,Clara Okonkwo
+MS-0045,INIT-011,Mobilisation & Scope Sign-Off,Gate,2026-07-05,2026-07-10,2026-07-10,Complete,5,Sinead Mehta
+MS-0046,INIT-011,Stage Gate 2 - Ready for Test,Gate,2026-12-30,2027-02-03,,In Progress,35,Devon Mehta
+MS-0047,INIT-011,Go-Live,Go-Live,2027-02-22,2027-03-19,,Not Started,25,Sinead Mehta
+MS-0048,INIT-012,Mobilisation & Scope Sign-Off,Gate,2026-05-12,2026-05-12,2026-05-12,Complete,0,Tessa Farouk
+MS-0049,INIT-012,Design Complete,Deliverable,2026-07-27,2026-07-27,2026-07-27,Complete,0,Tessa Farouk
+MS-0050,INIT-012,Build Complete,Deliverable,2026-10-12,2026-10-15,,Not Started,3,Anika Petrova
+MS-0051,INIT-012,Stage Gate 2 - Ready for Test,Gate,2026-11-27,2026-12-04,,In Progress,7,Anika Okonkwo
+MS-0052,INIT-012,Go-Live,Go-Live,2027-01-27,2027-01-27,,In Progress,0,Tessa Farouk
+MS-0053,INIT-012,Benefit Checkpoint 1,Benefit Checkpoint,2027-02-27,2027-02-27,,In Progress,0,Tessa Farouk
+MS-0054,INIT-013,Mobilisation & Scope Sign-Off,Gate,2027-03-30,2027-03-30,,Not Started,0,Priya Doherty
+MS-0055,INIT-013,Design Complete,Deliverable,2027-09-29,2027-09-29,,Not Started,0,Isla Rahman
+MS-0056,INIT-013,Build Complete,Deliverable,2028-03-30,2028-03-30,,Not Started,0,Anika Sandison
+MS-0057,INIT-013,Stage Gate 2 - Ready for Test,Gate,2028-07-17,2028-07-17,,Not Started,0,Isla Rahman
+MS-0058,INIT-013,Go-Live,Go-Live,2028-12-10,2028-12-10,,Not Started,0,Isla Rahman
+MS-0059,INIT-013,Benefit Checkpoint 1,Benefit Checkpoint,2029-02-22,2029-02-22,,Not Started,0,Isla Rahman
+MS-0060,INIT-014,Mobilisation & Scope Sign-Off,Gate,2027-07-06,2027-07-13,,Not Started,7,Marcus Halvorsen
+MS-0061,INIT-014,Design Complete,Deliverable,2027-10-29,2027-11-01,,Not Started,3,Marcus Halvorsen
+MS-0062,INIT-014,Go-Live,Go-Live,2028-07-30,2028-07-30,,Not Started,0,Marcus Halvorsen
+MS-0063,INIT-015,Mobilisation & Scope Sign-Off,Gate,2026-01-21,2026-01-31,2026-01-31,Complete,10,Tessa Ferreira
+MS-0064,INIT-015,Go-Live,Go-Live,2026-11-27,2026-11-27,,Not Started,0,Tessa Ferreira
+MS-0065,INIT-016,Mobilisation & Scope Sign-Off,Gate,2026-02-25,2026-03-27,,Missed,30,Rafael Novak
+MS-0066,INIT-016,Build Complete,Deliverable,2026-08-11,2026-09-01,,In Progress,21,Rafael Novak
+MS-0067,INIT-016,Stage Gate 2 - Ready for Test,Gate,2026-09-30,2026-10-30,,In Progress,30,Gregor Doherty
+MS-0068,INIT-016,Go-Live,Go-Live,2026-12-06,2026-12-27,,In Progress,21,Rafael Novak
+MS-0069,INIT-017,Mobilisation & Scope Sign-Off,Gate,2026-08-17,2026-09-16,,Not Started,30,Anika MacAulay
+MS-0070,INIT-017,Build Complete,Deliverable,2027-03-18,2027-05-17,,In Progress,60,Anika Kilbride
+MS-0071,INIT-017,Stage Gate 2 - Ready for Test,Gate,2027-05-21,2027-06-20,,In Progress,30,Beatriz Arnesen
+MS-0072,INIT-017,Go-Live,Go-Live,2027-08-15,2027-10-14,,Not Started,60,Tessa Whitfield
+MS-0073,INIT-018,Mobilisation & Scope Sign-Off,Gate,2026-08-23,2026-08-26,,In Progress,3,Hamish Adeyemi
+MS-0074,INIT-018,Design Complete,Deliverable,2026-11-30,2026-12-03,,Not Started,3,Hamish Adeyemi
+MS-0075,INIT-018,Stage Gate 2 - Ready for Test,Gate,2027-05-08,2027-05-08,,In Progress,0,Hamish Adeyemi
+MS-0076,INIT-018,Go-Live,Go-Live,2027-07-26,2027-08-02,,Not Started,7,Hamish Adeyemi
+MS-0077,INIT-019,Mobilisation & Scope Sign-Off,Gate,2026-03-05,2026-03-05,2026-03-05,Complete,0,Sinead Boateng
+MS-0078,INIT-019,Build Complete,Deliverable,2026-12-19,2026-12-19,,Not Started,0,Nadia Farouk
+MS-0079,INIT-019,Go-Live,Go-Live,2027-07-09,2027-07-12,,In Progress,3,Sinead Boateng
+MS-0080,INIT-020,Mobilisation & Scope Sign-Off,Gate,2026-05-13,2026-08-11,,Missed,90,Bjorn Whitfield
+MS-0081,INIT-020,Design Complete,Deliverable,2026-09-12,2026-11-11,,In Progress,60,Bjorn Whitfield
+MS-0082,INIT-020,Stage Gate 2 - Ready for Test,Gate,2027-03-25,2027-05-24,,In Progress,60,Bjorn Whitfield
+MS-0083,INIT-020,Go-Live,Go-Live,2027-07-01,2027-07-31,,Not Started,30,Bjorn Whitfield
+MS-0084,INIT-020,Benefit Checkpoint 1,Benefit Checkpoint,2027-08-19,2027-09-09,,In Progress,21,Bjorn Whitfield
+MS-0085,INIT-021,Mobilisation & Scope Sign-Off,Gate,2026-09-26,2026-09-26,,Not Started,0,Sinead Fraser
+MS-0086,INIT-021,Design Complete,Deliverable,2027-01-03,2027-01-03,,Not Started,0,Sinead Fraser
+MS-0087,INIT-021,Go-Live,Go-Live,2027-08-28,2027-09-04,,Not Started,7,Sinead Fraser
+MS-0088,INIT-022,Mobilisation & Scope Sign-Off,Gate,2026-11-15,2026-12-03,,Not Started,18,Hamish Adeyemi
+MS-0089,INIT-022,Design Complete,Deliverable,2027-03-10,2027-04-04,,Not Started,25,Zoya Petrova
+MS-0090,INIT-022,Stage Gate 2 - Ready for Test,Gate,2027-09-08,2027-09-08,,Not Started,0,Zoya Petrova
+MS-0091,INIT-022,Go-Live,Go-Live,2027-12-09,2027-12-19,,Not Started,10,Zoya Petrova
+MS-0092,INIT-023,Mobilisation & Scope Sign-Off,Gate,2026-03-08,2026-03-08,2026-03-08,Complete,0,Idris Vlach
+MS-0093,INIT-023,Build Complete,Deliverable,2026-08-22,2026-08-25,,Not Started,3,Idris Vlach
+MS-0094,INIT-023,Go-Live,Go-Live,2026-12-17,2026-12-17,,In Progress,0,Idris Vlach
+MS-0095,INIT-024,Mobilisation & Scope Sign-Off,Gate,2027-02-17,2027-02-17,,Not Started,0,Tomas Okonkwo
+MS-0096,INIT-024,Design Complete,Deliverable,2027-06-11,2027-06-11,,Not Started,0,Maeve Farouk
+MS-0097,INIT-024,Build Complete,Deliverable,2027-10-03,2027-10-03,,Not Started,0,Tessa Reinholt
+MS-0098,INIT-024,Stage Gate 2 - Ready for Test,Gate,2027-12-11,2027-12-18,,Not Started,7,Elise Doherty
+MS-0099,INIT-024,Go-Live,Go-Live,2028-03-11,2028-03-11,,Not Started,0,Elise Doherty
+MS-0100,INIT-024,Benefit Checkpoint 1,Benefit Checkpoint,2028-04-26,2028-04-29,,Not Started,3,Marcus Farouk
+MS-0101,INIT-025,Mobilisation & Scope Sign-Off,Gate,2026-08-08,2026-09-22,,In Progress,45,Kofi Buchanan
+MS-0102,INIT-025,Design Complete,Deliverable,2026-10-23,2026-12-07,,In Progress,45,Sinead Whitfield
+MS-0103,INIT-025,Build Complete,Deliverable,2027-01-07,2027-04-07,,Not Started,90,Sinead Whitfield
+MS-0104,INIT-025,Stage Gate 2 - Ready for Test,Gate,2027-02-21,2027-05-22,,Not Started,90,Sinead Whitfield
+MS-0105,INIT-025,Go-Live,Go-Live,2027-04-23,2027-06-22,,Not Started,60,Sinead Whitfield
+MS-0106,INIT-025,Benefit Checkpoint 1,Benefit Checkpoint,2027-05-24,2027-06-14,,In Progress,21,Sinead Whitfield
+MS-0107,INIT-026,Mobilisation & Scope Sign-Off,Gate,2026-01-26,2026-02-20,,Missed,25,Beatriz Nair
+MS-0108,INIT-026,Design Complete,Deliverable,2026-04-27,2026-05-15,2026-05-15,Complete,18,Struan Corrigan
+MS-0109,INIT-026,Build Complete,Deliverable,2026-07-27,2026-08-31,,In Progress,35,Hamish Nair
+MS-0110,INIT-026,Stage Gate 2 - Ready for Test,Gate,2026-09-20,2026-10-25,,Not Started,35,Beatriz Nair
+MS-0111,INIT-026,Go-Live,Go-Live,2026-12-02,2026-12-07,,In Progress,5,Beatriz Nair
+MS-0112,INIT-026,Benefit Checkpoint 1,Benefit Checkpoint,2027-01-08,2027-01-18,,Not Started,10,Beatriz Nair
+MS-0113,INIT-027,Mobilisation & Scope Sign-Off,Gate,2026-09-11,2026-09-14,,Not Started,3,Maeve Farouk
+MS-0114,INIT-027,Design Complete,Deliverable,2027-01-19,2027-01-26,,Not Started,7,Erik Duval
+MS-0115,INIT-027,Build Complete,Deliverable,2027-05-28,2027-05-28,,Not Started,0,Maeve Farouk
+MS-0116,INIT-027,Stage Gate 2 - Ready for Test,Gate,2027-08-14,2027-08-17,,Not Started,3,Maeve Farouk
+MS-0117,INIT-027,Go-Live,Go-Live,2027-11-26,2027-11-26,,Not Started,0,Maeve Farouk
+MS-0118,INIT-027,Benefit Checkpoint 1,Benefit Checkpoint,2028-01-17,2028-01-20,,Not Started,3,Beatriz Sandison
+MS-0119,INIT-028,Mobilisation & Scope Sign-Off,Gate,2026-04-17,2026-04-20,2026-04-20,Complete,3,Yusuf Arnesen
+MS-0120,INIT-028,Build Complete,Deliverable,2027-03-19,2027-03-22,,In Progress,3,Idris Adeyemi
+MS-0121,INIT-028,Go-Live,Go-Live,2027-11-08,2027-11-11,,In Progress,3,Marcus Bramley
+MS-0122,INIT-029,Mobilisation & Scope Sign-Off,Gate,2026-02-16,2026-02-16,2026-02-16,Complete,0,Maeve Whitfield
+MS-0123,INIT-029,Stage Gate 2 - Ready for Test,Gate,2026-10-11,2026-10-11,,Not Started,0,Hamish Bramley
+MS-0124,INIT-029,Go-Live,Go-Live,2026-12-23,2026-12-26,,Not Started,3,Maeve Whitfield
+MS-0125,INIT-030,Mobilisation & Scope Sign-Off,Gate,2026-05-09,2026-05-12,2026-05-12,Complete,3,Zoya Doherty
+MS-0126,INIT-030,Design Complete,Deliverable,2026-09-23,2026-09-26,,Not Started,3,Erik Mendes
+MS-0127,INIT-030,Build Complete,Deliverable,2027-02-07,2027-02-07,,In Progress,0,Callum Kilbride
+MS-0128,INIT-030,Go-Live,Go-Live,2027-08-18,2027-08-18,,In Progress,0,Priya Kilbride
+MS-0129,INIT-030,Benefit Checkpoint 1,Benefit Checkpoint,2027-10-12,2027-10-12,,Not Started,0,Zoya Doherty
+MS-0130,INIT-031,Mobilisation & Scope Sign-Off,Gate,2026-08-19,2026-09-09,,Not Started,21,Hamish Sandison
+MS-0131,INIT-031,Design Complete,Deliverable,2026-10-18,2026-12-17,,In Progress,60,Beatriz Farouk
+MS-0132,INIT-031,Build Complete,Deliverable,2026-12-18,2027-01-08,,In Progress,21,Devon Achebe
+MS-0133,INIT-031,Stage Gate 2 - Ready for Test,Gate,2027-01-24,2027-03-25,,In Progress,60,Yusuf Boateng
+MS-0134,INIT-031,Benefit Checkpoint 1,Benefit Checkpoint,2027-04-07,2027-07-06,,Not Started,90,Beatriz Farouk
+MS-0135,INIT-032,Mobilisation & Scope Sign-Off,Gate,2026-07-25,2026-08-29,,In Progress,35,Lena Kilbride
+MS-0136,INIT-032,Design Complete,Deliverable,2026-10-09,2026-11-13,,In Progress,35,Rafael MacAulay
+MS-0137,INIT-032,Build Complete,Deliverable,2026-12-24,2027-01-28,,In Progress,35,Lena Kilbride
+MS-0138,INIT-032,Stage Gate 2 - Ready for Test,Gate,2027-02-07,2027-03-04,,In Progress,25,Lena Kilbride
+MS-0139,INIT-032,Go-Live,Go-Live,2027-04-09,2027-04-09,,Not Started,0,Lena Kilbride
+MS-0140,INIT-032,Benefit Checkpoint 1,Benefit Checkpoint,2027-05-10,2027-06-14,,In Progress,35,Kofi Sandison
+MS-0141,INIT-033,Mobilisation & Scope Sign-Off,Gate,2026-12-23,2026-12-23,,Not Started,0,Nuala Arnesen
+MS-0142,INIT-033,Design Complete,Deliverable,2027-03-17,2027-03-17,,Not Started,0,Nadia Whitfield
+MS-0143,INIT-033,Build Complete,Deliverable,2027-06-09,2027-06-12,,Not Started,3,Nadia Menzies
+MS-0144,INIT-033,Stage Gate 2 - Ready for Test,Gate,2027-07-29,2027-08-01,,Not Started,3,Bjorn Doherty
+MS-0145,INIT-033,Go-Live,Go-Live,2027-10-04,2027-10-04,,Not Started,0,Anika Whitfield
+MS-0146,INIT-033,Benefit Checkpoint 1,Benefit Checkpoint,2027-11-07,2027-11-14,,Not Started,7,Nadia Menzies
+MS-0147,INIT-034,Mobilisation & Scope Sign-Off,Gate,2026-03-24,2026-04-03,2026-04-03,Complete,10,Nuala Arnesen
+MS-0148,INIT-034,Design Complete,Deliverable,2026-06-17,2026-08-01,,Missed,45,Nuala Arnesen
+MS-0149,INIT-034,Build Complete,Deliverable,2026-09-09,2026-09-19,,In Progress,10,Nuala Arnesen
+MS-0150,INIT-034,Stage Gate 2 - Ready for Test,Gate,2026-10-29,2027-01-27,,Not Started,90,Devon Mehta
+MS-0151,INIT-034,Go-Live,Go-Live,2027-01-05,2027-02-04,,Not Started,30,Sinead Nair
+MS-0152,INIT-034,Benefit Checkpoint 1,Benefit Checkpoint,2027-02-08,2027-03-10,,Not Started,30,Nuala Arnesen
+MS-0153,INIT-035,Mobilisation & Scope Sign-Off,Gate,2026-03-27,2026-06-25,,Missed,90,Anika Rahman
+MS-0154,INIT-035,Design Complete,Deliverable,2026-05-20,2026-06-10,2026-06-10,Complete,21,Anika Rahman
+MS-0155,INIT-035,Stage Gate 2 - Ready for Test,Gate,2026-08-13,2026-09-27,,Not Started,45,Anika Rahman
+MS-0156,INIT-035,Go-Live,Go-Live,2026-09-25,2026-10-25,,Not Started,30,Idris Adeyemi
+MS-0157,INIT-035,Benefit Checkpoint 1,Benefit Checkpoint,2026-10-17,2026-11-07,,In Progress,21,Anika Rahman
+MS-0158,INIT-036,Mobilisation & Scope Sign-Off,Gate,2026-03-06,2026-03-06,2026-03-06,Complete,0,Hamish Reinholt
+MS-0159,INIT-036,Design Complete,Deliverable,2026-08-28,2026-08-28,,Not Started,0,Hamish Reinholt
+MS-0160,INIT-036,Build Complete,Deliverable,2027-02-19,2027-02-19,,Not Started,0,Hamish Reinholt
+MS-0161,INIT-036,Stage Gate 2 - Ready for Test,Gate,2027-06-04,2027-06-11,,Not Started,7,Rohan Kilbride
+MS-0162,INIT-036,Go-Live,Go-Live,2027-10-22,2027-10-22,,Not Started,0,Freya Duval
+MS-0163,INIT-036,Benefit Checkpoint 1,Benefit Checkpoint,2027-12-31,2028-01-03,,In Progress,3,Priya Boateng
+MS-0164,INIT-037,Mobilisation & Scope Sign-Off,Gate,2026-12-06,2026-12-06,,Not Started,0,Anika Farouk
+MS-0165,INIT-037,Stage Gate 2 - Ready for Test,Gate,2027-04-02,2027-04-02,,Not Started,0,Maeve Nair
+MS-0166,INIT-037,Go-Live,Go-Live,2027-05-08,2027-05-08,,Not Started,0,Maeve Nair
+MS-0167,INIT-038,Mobilisation & Scope Sign-Off,Gate,2026-08-13,2026-08-18,,Not Started,5,Devon Arnesen
+MS-0168,INIT-038,Build Complete,Deliverable,2027-01-12,2027-01-12,,Not Started,0,Yusuf Whitfield
+MS-0169,INIT-038,Stage Gate 2 - Ready for Test,Gate,2027-02-26,2027-02-26,,Not Started,0,Yusuf Whitfield
+MS-0170,INIT-038,Go-Live,Go-Live,2027-04-28,2027-05-23,,Not Started,25,Yusuf Whitfield
+MS-0171,INIT-038,Benefit Checkpoint 1,Benefit Checkpoint,2027-05-29,2027-05-29,,In Progress,0,Freya Novak
+MS-0172,INIT-039,Mobilisation & Scope Sign-Off,Gate,2026-09-10,2026-10-25,,Not Started,45,Yusuf Arnesen
+MS-0173,INIT-039,Design Complete,Deliverable,2027-02-25,2027-03-07,,Not Started,10,Yusuf Arnesen
+MS-0174,INIT-039,Build Complete,Deliverable,2027-08-11,2027-08-21,,Not Started,10,Lena Demir
+MS-0175,INIT-039,Stage Gate 2 - Ready for Test,Gate,2027-11-19,2027-12-19,,In Progress,30,Yusuf Arnesen
+MS-0176,INIT-039,Go-Live,Go-Live,2028-04-02,2028-05-17,,Not Started,45,Clara Petrova
+MS-0177,INIT-039,Benefit Checkpoint 1,Benefit Checkpoint,2028-06-08,2028-06-29,,In Progress,21,Yusuf Arnesen
+MS-0178,INIT-040,Mobilisation & Scope Sign-Off,Gate,2026-05-28,2026-06-15,2026-06-15,Complete,18,Nadia Doherty
+MS-0179,INIT-040,Stage Gate 2 - Ready for Test,Gate,2027-01-01,2027-02-05,,Not Started,35,Nadia Doherty
+MS-0180,INIT-040,Go-Live,Go-Live,2027-03-09,2027-03-27,,Not Started,18,Nadia Doherty
+MS-0181,INIT-041,Mobilisation & Scope Sign-Off,Gate,2026-03-22,2026-04-16,2026-04-16,Complete,25,Yusuf Demir
+MS-0182,INIT-041,Stage Gate 2 - Ready for Test,Gate,2027-06-20,2027-07-25,,Not Started,35,Yusuf Demir
+MS-0183,INIT-041,Go-Live,Go-Live,2027-11-07,2027-12-12,,Not Started,35,Rohan Halvorsen
+MS-0184,INIT-042,Mobilisation & Scope Sign-Off,Gate,2026-07-01,2026-07-01,2026-07-01,Complete,0,Beatriz Doherty
+MS-0185,INIT-042,Design Complete,Deliverable,2026-08-24,2026-08-24,,Not Started,0,Struan Lindqvist
+MS-0186,INIT-042,Build Complete,Deliverable,2026-10-16,2026-10-19,,In Progress,3,Struan Lindqvist
+MS-0187,INIT-042,Go-Live,Go-Live,2026-12-30,2026-12-30,,Not Started,0,Struan Lindqvist
+MS-0188,INIT-042,Benefit Checkpoint 1,Benefit Checkpoint,2027-01-21,2027-01-28,,In Progress,7,Struan Lindqvist
+MS-0189,INIT-043,Mobilisation & Scope Sign-Off,Gate,2027-02-14,2027-02-14,,Not Started,0,Maeve Bramley
+MS-0190,INIT-043,Build Complete,Deliverable,2027-05-31,2027-05-31,,Not Started,0,Tessa Kilbride
+MS-0191,INIT-043,Go-Live,Go-Live,2027-08-13,2027-08-20,,Not Started,7,Tessa Kilbride
+MS-0192,INIT-044,Mobilisation & Scope Sign-Off,Gate,2026-06-29,2026-07-29,,Missed,30,Nuala Boateng
+MS-0193,INIT-044,Stage Gate 2 - Ready for Test,Gate,2027-04-02,2027-04-12,,In Progress,10,Nuala Boateng
+MS-0194,INIT-044,Go-Live,Go-Live,2027-06-26,2027-07-17,,In Progress,21,Anika Doherty
+MS-0195,INIT-045,Mobilisation & Scope Sign-Off,Gate,2027-07-24,2027-07-24,,Not Started,0,Struan Lindqvist
+MS-0196,INIT-045,Build Complete,Deliverable,2027-12-09,2027-12-16,,Not Started,7,Lena Nair
+MS-0197,INIT-045,Go-Live,Go-Live,2028-03-14,2028-03-17,,Not Started,3,Rafael Ferreira
+MS-0198,INIT-046,Mobilisation & Scope Sign-Off,Gate,2027-03-02,2027-03-02,,Not Started,0,Gregor Doherty
+MS-0199,INIT-046,Design Complete,Deliverable,2027-06-09,2027-06-09,,Not Started,0,Gregor Doherty
+MS-0200,INIT-046,Build Complete,Deliverable,2027-09-15,2027-09-15,,Not Started,0,Marcus Kilbride
+MS-0201,INIT-046,Go-Live,Go-Live,2028-01-31,2028-01-31,,Not Started,0,Gregor Doherty
+MS-0202,INIT-046,Benefit Checkpoint 1,Benefit Checkpoint,2028-03-11,2028-03-14,,Not Started,3,Rafael Buchanan
+MS-0203,INIT-047,Mobilisation & Scope Sign-Off,Gate,2027-02-13,2027-02-13,,Not Started,0,Struan Whitfield
+MS-0204,INIT-047,Stage Gate 2 - Ready for Test,Gate,2027-11-16,2027-11-16,,Not Started,0,Olu Boateng
+MS-0205,INIT-047,Go-Live,Go-Live,2028-02-09,2028-02-09,,Not Started,0,Amara Mendes
+MS-0206,INIT-048,Mobilisation & Scope Sign-Off,Gate,2026-03-24,2026-04-18,2026-04-18,Complete,25,Nuala Petrova
+MS-0207,INIT-048,Design Complete,Deliverable,2026-07-01,2026-07-01,2026-07-01,Complete,0,Freya Adeyemi
+MS-0208,INIT-048,Build Complete,Deliverable,2026-10-08,2026-10-18,,Not Started,10,Nuala Petrova
+MS-0209,INIT-048,Stage Gate 2 - Ready for Test,Gate,2026-12-07,2026-12-12,,In Progress,5,Gregor Kilbride
+MS-0210,INIT-048,Go-Live,Go-Live,2027-02-24,2027-03-31,,Not Started,35,Nuala Petrova
+MS-0211,INIT-048,Benefit Checkpoint 1,Benefit Checkpoint,2027-04-05,2027-04-30,,Not Started,25,Lena Nair
+MS-0212,INIT-049,Mobilisation & Scope Sign-Off,Gate,2026-07-18,2026-07-18,2026-07-18,Complete,0,Hamish Lindqvist
+MS-0213,INIT-049,Build Complete,Deliverable,2027-01-16,2027-01-16,,In Progress,0,Tessa Kaur
+MS-0214,INIT-049,Go-Live,Go-Live,2027-05-24,2027-05-24,,In Progress,0,Hamish Lindqvist
+MS-0215,INIT-050,Mobilisation & Scope Sign-Off,Gate,2026-03-12,2026-03-17,2026-03-17,Complete,5,Beatriz Mehta
+MS-0216,INIT-050,Go-Live,Go-Live,2027-03-07,2027-03-25,,In Progress,18,Beatriz Mehta
+MS-0217,INIT-051,Mobilisation & Scope Sign-Off,Gate,2026-12-29,2027-01-08,,Not Started,10,Yusuf Sandison
+MS-0218,INIT-051,Go-Live,Go-Live,2028-04-08,2028-04-08,,Not Started,0,Yusuf Sandison
+MS-0219,INIT-052,Mobilisation & Scope Sign-Off,Gate,2026-08-30,2026-08-30,,Not Started,0,Freya Mehta
+MS-0220,INIT-052,Build Complete,Deliverable,2026-12-29,2026-12-29,,Not Started,0,Lena Demir
+MS-0221,INIT-052,Stage Gate 2 - Ready for Test,Gate,2027-02-04,2027-02-04,,Not Started,0,Sinead MacAulay
+MS-0222,INIT-052,Go-Live,Go-Live,2027-03-24,2027-03-24,,Not Started,0,Freya Mehta
+MS-0223,INIT-052,Benefit Checkpoint 1,Benefit Checkpoint,2027-04-18,2027-04-21,,Not Started,3,Clara Bramley
+MS-0224,INIT-053,Mobilisation & Scope Sign-Off,Gate,2025-12-24,2026-01-14,,Missed,21,Marcus Lindqvist
+MS-0225,INIT-053,Stage Gate 2 - Ready for Test,Gate,2027-01-22,2027-02-12,,In Progress,21,Freya Mendes
+MS-0226,INIT-053,Go-Live,Go-Live,2027-05-24,2027-08-22,,Not Started,90,Freya Mendes
+MS-0227,INIT-054,Mobilisation & Scope Sign-Off,Gate,2026-03-03,2026-03-08,2026-03-08,Complete,5,Nuala Farouk
+MS-0228,INIT-054,Build Complete,Deliverable,2026-07-02,2026-07-07,2026-07-07,Complete,5,Hamish Sandison
+MS-0229,INIT-054,Stage Gate 2 - Ready for Test,Gate,2026-08-07,2026-08-17,,In Progress,10,Hamish Sandison
+MS-0230,INIT-054,Go-Live,Go-Live,2026-09-24,2026-10-12,,Not Started,18,Hamish Sandison
+MS-0231,INIT-054,Benefit Checkpoint 1,Benefit Checkpoint,2026-10-19,2026-11-13,,In Progress,25,Lena Halvorsen
+MS-0232,INIT-055,Mobilisation & Scope Sign-Off,Gate,2025-08-26,2025-09-16,,Missed,21,Isla Petrova
+MS-0233,INIT-055,Design Complete,Deliverable,2025-12-19,2026-02-02,2026-02-02,Complete,45,Isla Petrova
+MS-0234,INIT-055,Go-Live,Go-Live,2026-09-19,2026-11-18,,Not Started,60,Bjorn Rahman
+MS-0235,INIT-056,Mobilisation & Scope Sign-Off,Gate,2026-04-06,2026-04-24,2026-04-24,Complete,18,Zoya Halvorsen
+MS-0236,INIT-056,Design Complete,Deliverable,2026-07-14,2026-07-19,2026-07-19,Complete,5,Nadia Demir
+MS-0237,INIT-056,Build Complete,Deliverable,2026-10-21,2026-10-26,,Not Started,5,Nadia Adeyemi
+MS-0238,INIT-056,Stage Gate 2 - Ready for Test,Gate,2026-12-20,2026-12-30,,In Progress,10,Zoya Halvorsen
+MS-0239,INIT-056,Go-Live,Go-Live,2027-03-09,2027-03-27,,In Progress,18,Yusuf Kaur
+MS-0240,INIT-056,Benefit Checkpoint 1,Benefit Checkpoint,2027-04-18,2027-05-06,,In Progress,18,Zoya Halvorsen
+MS-0241,INIT-057,Mobilisation & Scope Sign-Off,Gate,2026-05-21,2026-05-21,2026-05-21,Complete,0,Bjorn Demir
+MS-0242,INIT-057,Design Complete,Deliverable,2026-08-13,2026-08-13,,Not Started,0,Tomas Reinholt
+MS-0243,INIT-057,Stage Gate 2 - Ready for Test,Gate,2026-12-25,2026-12-25,,In Progress,0,Clara Sandison
+MS-0244,INIT-057,Go-Live,Go-Live,2027-03-02,2027-03-02,,Not Started,0,Clara Sandison
+MS-0245,INIT-057,Benefit Checkpoint 1,Benefit Checkpoint,2027-04-05,2027-04-08,,In Progress,3,Beatriz Mehta
+MS-0246,INIT-058,Mobilisation & Scope Sign-Off,Gate,2025-10-04,2025-10-04,2025-10-04,Complete,0,Amara Adeyemi
+MS-0247,INIT-058,Design Complete,Deliverable,2026-01-26,2026-01-26,2026-01-26,Complete,0,Hamish Lindqvist
+MS-0248,INIT-058,Go-Live,Go-Live,2026-10-27,2026-11-03,,Not Started,7,Nadia Boateng
+MS-0249,INIT-059,Mobilisation & Scope Sign-Off,Gate,2026-10-15,2026-10-15,,Not Started,0,Erik Menzies
+MS-0250,INIT-059,Design Complete,Deliverable,2027-01-07,2027-01-07,,Not Started,0,Amara Demir
+MS-0251,INIT-059,Build Complete,Deliverable,2027-03-31,2027-04-03,,Not Started,3,Erik Menzies
+MS-0252,INIT-059,Stage Gate 2 - Ready for Test,Gate,2027-05-20,2027-05-27,,Not Started,7,Erik Menzies
+MS-0253,INIT-059,Go-Live,Go-Live,2027-07-26,2027-07-26,,Not Started,0,Erik Menzies
+MS-0254,INIT-059,Benefit Checkpoint 1,Benefit Checkpoint,2027-08-29,2027-08-29,,Not Started,0,Beatriz Ferreira
+MS-0255,INIT-060,Mobilisation & Scope Sign-Off,Gate,2027-02-28,2027-03-07,,Not Started,7,Freya Mendes
+MS-0256,INIT-060,Build Complete,Deliverable,2027-09-13,2027-09-13,,Not Started,0,Beatriz Sandison
+MS-0257,INIT-060,Stage Gate 2 - Ready for Test,Gate,2027-11-11,2027-11-11,,Not Started,0,Amara Bramley
+MS-0258,INIT-060,Go-Live,Go-Live,2028-01-29,2028-02-01,,Not Started,3,Amara Bramley
+MS-0259,INIT-060,Benefit Checkpoint 1,Benefit Checkpoint,2028-03-09,2028-03-09,,Not Started,0,Amara Bramley

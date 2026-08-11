@@ -1,0 +1,83 @@
+issue_id,initiative_id,title,description,severity,status,raised_date,age_days,owner,impact_on_schedule_days,impact_on_cost_usd,linked_risk_id
+ISS-0001,INIT-001,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",Medium,Resolved,2026-04-21,112,Rafael Farouk,0,17000,
+ISS-0002,INIT-001,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,Low,Resolved,2026-05-29,74,Struan Mendes,4,3500,
+ISS-0003,INIT-002,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",Medium,Open,2026-04-27,106,Zoya Vlach,7,18000,RSK-0005
+ISS-0004,INIT-003,Budget overspend against phase forecast,"Phase spend is running ahead of plan, driven by contractor day rates.",High,Blocked,2026-07-29,13,Clara Doherty,20,64500,
+ISS-0005,INIT-003,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",High,Blocked,2025-12-06,248,Tomas Rahman,12,51500,
+ISS-0006,INIT-004,Key resource resigned,The lead architect is leaving and the handover plan is not yet agreed.,Medium,Resolved,2026-04-06,127,Yusuf Mendes,9,16500,
+ISS-0007,INIT-006,Cutover window clashes with peak trading,The proposed go-live falls inside the seasonal peak; operations have objected.,Medium,In Progress,2026-04-23,110,Idris Whitfield,6,14000,RSK-0014
+ISS-0008,INIT-006,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,Medium,Open,2026-06-05,67,Nuala Farouk,7,25500,RSK-0013
+ISS-0009,INIT-007,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,Medium,Resolved,2026-06-28,44,Rohan Novak,11,0,RSK-0015
+ISS-0010,INIT-007,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Medium,Open,2026-06-24,48,Erik Halvorsen,6,24500,
+ISS-0011,INIT-008,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,Medium,In Progress,2026-08-02,9,Priya Doherty,12,22000,RSK-0016
+ISS-0012,INIT-008,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,Medium,Resolved,2026-06-06,66,Hamish Sandison,3,32500,
+ISS-0013,INIT-011,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",High,In Progress,2026-07-04,38,Sinead Boateng,23,57500,RSK-0022
+ISS-0014,INIT-011,Key resource resigned,The lead architect is leaving and the handover plan is not yet agreed.,Medium,In Progress,2026-08-11,0,Beatriz Okonkwo,6,13000,
+ISS-0015,INIT-012,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Medium,Resolved,2026-06-14,58,Tessa Farouk,11,10000,
+ISS-0016,INIT-013,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Medium,Open,2026-08-06,5,Isla Rahman,5,9500,
+ISS-0017,INIT-015,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,High,Open,2026-03-11,153,Rafael Ferreira,12,20500,
+ISS-0018,INIT-015,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",Medium,Resolved,2026-01-13,210,Tessa Ferreira,5,16500,RSK-0030
+ISS-0019,INIT-015,Access provisioning delays,New joiners and vendor staff are waiting on system access and losing productive days.,Medium,Open,2026-02-04,188,Nuala Kaur,8,20000,
+ISS-0020,INIT-016,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,High,In Progress,2026-03-06,158,Rafael Novak,13,25500,RSK-0034
+ISS-0021,INIT-016,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",High,In Progress,2026-05-15,88,Clara Rahman,13,60000,
+ISS-0022,INIT-016,Cutover window clashes with peak trading,The proposed go-live falls inside the seasonal peak; operations have objected.,Medium,Open,2026-03-31,133,Nadia Halvorsen,12,24500,
+ISS-0023,INIT-016,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,High,Resolved,2026-07-02,40,Rafael Novak,17,52000,RSK-0033
+ISS-0024,INIT-017,Training materials not signed off,Localisation of training content is behind schedule for the non-UK sites.,High,Open,2026-08-09,2,Tessa Whitfield,24,61000,RSK-0037
+ISS-0025,INIT-017,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",High,Resolved,2026-08-10,1,Lena Ferreira,24,26500,RSK-0037
+ISS-0026,INIT-017,Key resource resigned,The lead architect is leaving and the handover plan is not yet agreed.,Medium,Open,2026-07-29,13,Tessa Menzies,5,13500,
+ISS-0027,INIT-018,Budget overspend against phase forecast,"Phase spend is running ahead of plan, driven by contractor day rates.",Medium,Open,2026-08-01,10,Hamish Adeyemi,4,4000,
+ISS-0028,INIT-018,Scope disagreement between functions,Two functions disagree on the target process; the decision is escalated to the steering committee.,Low,Resolved,2026-08-09,2,Hamish Adeyemi,4,3500,RSK-0038
+ISS-0029,INIT-020,Training materials not signed off,Localisation of training content is behind schedule for the non-UK sites.,Critical,In Progress,2026-07-12,30,Nuala Arnesen,35,301000,
+ISS-0030,INIT-020,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,High,In Progress,2026-08-09,2,Bjorn Whitfield,25,63000,RSK-0043
+ISS-0031,INIT-024,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,Medium,In Progress,2026-08-03,8,Clara Sandison,0,500,RSK-0050
+ISS-0032,INIT-025,Scope disagreement between functions,Two functions disagree on the target process; the decision is escalated to the steering committee.,High,Open,2026-07-31,11,Maeve Doherty,17,35000,
+ISS-0033,INIT-025,Training materials not signed off,Localisation of training content is behind schedule for the non-UK sites.,Critical,Blocked,2026-08-10,1,Sinead Whitfield,41,55000,
+ISS-0034,INIT-026,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,High,Open,2026-05-24,79,Beatriz Nair,14,69500,
+ISS-0035,INIT-026,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,High,In Progress,2026-07-31,11,Beatriz Nair,19,78000,
+ISS-0036,INIT-028,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,Medium,Resolved,2026-05-18,85,Marcus Bramley,12,9500,RSK-0057
+ISS-0037,INIT-030,Scope disagreement between functions,Two functions disagree on the target process; the decision is escalated to the steering committee.,Low,Resolved,2026-05-21,82,Beatriz Corrigan,0,3000,RSK-0062
+ISS-0038,INIT-031,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,High,Open,2026-08-06,5,Gregor Mendes,23,7500,
+ISS-0039,INIT-031,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,Critical,In Progress,2026-08-03,8,Beatriz Farouk,58,25500,RSK-0064
+ISS-0040,INIT-032,Works council consultation not started,"Consultation in the DACH entities has not been initiated, putting the rollout date at risk.",Medium,Resolved,2026-08-07,4,Lena Kilbride,6,500,
+ISS-0041,INIT-032,Cutover window clashes with peak trading,The proposed go-live falls inside the seasonal peak; operations have objected.,Medium,In Progress,2026-07-21,21,Lena Kilbride,7,15000,
+ISS-0042,INIT-032,Integration defect in UAT,A high-severity defect on the order interface is blocking end-to-end test completion.,Medium,In Progress,2026-08-02,9,Clara MacAulay,6,6500,RSK-0066
+ISS-0043,INIT-033,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,Low,Resolved,2026-08-08,3,Nadia Menzies,2,4500,RSK-0068
+ISS-0044,INIT-034,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,High,Open,2026-04-02,131,Nuala Arnesen,17,70500,
+ISS-0045,INIT-034,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Medium,Resolved,2026-04-30,103,Nuala Arnesen,12,33000,
+ISS-0046,INIT-035,Key resource resigned,The lead architect is leaving and the handover plan is not yet agreed.,Medium,Resolved,2026-04-05,128,Anika Rahman,1,5000,
+ISS-0047,INIT-035,Training materials not signed off,Localisation of training content is behind schedule for the non-UK sites.,High,Blocked,2026-07-01,41,Anika Rahman,23,12500,
+ISS-0048,INIT-035,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,High,Resolved,2026-07-31,11,Anika Rahman,16,10500,RSK-0076
+ISS-0049,INIT-035,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Critical,Open,2026-08-03,8,Yusuf Lindqvist,50,53500,
+ISS-0050,INIT-036,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,Medium,Open,2026-03-28,136,Hamish Reinholt,12,27000,RSK-0078
+ISS-0051,INIT-038,Key resource resigned,The lead architect is leaving and the handover plan is not yet agreed.,High,Open,2026-08-07,4,Yusuf Whitfield,30,31000,RSK-0082
+ISS-0052,INIT-039,Access provisioning delays,New joiners and vendor staff are waiting on system access and losing productive days.,High,Blocked,2026-08-01,10,Yusuf Arnesen,17,56500,
+ISS-0053,INIT-039,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",High,Resolved,2026-08-11,0,Yusuf Arnesen,25,74500,RSK-0085
+ISS-0054,INIT-039,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Critical,Resolved,2026-08-07,4,Clara Novak,53,120500,RSK-0085
+ISS-0055,INIT-039,Works council consultation not started,"Consultation in the DACH entities has not been initiated, putting the rollout date at risk.",Critical,In Progress,2026-08-07,4,Yusuf Reinholt,59,176500,
+ISS-0056,INIT-040,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,High,In Progress,2026-07-06,36,Nadia Doherty,7,20500,RSK-0087
+ISS-0057,INIT-041,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",Medium,In Progress,2026-03-25,139,Struan Achebe,10,4000,RSK-0089
+ISS-0058,INIT-041,Works council consultation not started,"Consultation in the DACH entities has not been initiated, putting the rollout date at risk.",High,Open,2026-03-16,148,Freya Adeyemi,5,44500,
+ISS-0059,INIT-042,Cutover window clashes with peak trading,The proposed go-live falls inside the seasonal peak; operations have objected.,Medium,In Progress,2026-08-02,9,Struan Lindqvist,0,4000,
+ISS-0060,INIT-042,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,Low,Resolved,2026-08-02,9,Kofi Kaur,0,3500,
+ISS-0061,INIT-044,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",Critical,In Progress,2026-07-03,39,Nuala Boateng,44,54500,
+ISS-0062,INIT-044,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",High,Blocked,2026-07-23,19,Marcus Lindqvist,21,73000,RSK-0095
+ISS-0063,INIT-044,Training materials not signed off,Localisation of training content is behind schedule for the non-UK sites.,High,Blocked,2026-07-28,14,Nuala Boateng,28,56000,RSK-0093
+ISS-0064,INIT-047,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",Medium,Open,2026-08-09,2,Idris Duval,9,5500,
+ISS-0065,INIT-048,Cutover window clashes with peak trading,The proposed go-live falls inside the seasonal peak; operations have objected.,Low,In Progress,2026-04-14,119,Devon Kilbride,0,0,RSK-0104
+ISS-0066,INIT-049,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",High,Open,2026-07-17,25,Marcus Corrigan,8,58500,
+ISS-0067,INIT-049,Cutover window clashes with peak trading,The proposed go-live falls inside the seasonal peak; operations have objected.,Medium,Resolved,2026-07-05,37,Hamish Lindqvist,8,4500,
+ISS-0068,INIT-050,Design sign-off overdue with the business,Business owners have not returned the signed design pack; the build team is idling.,Medium,Resolved,2026-02-22,170,Beatriz Mehta,11,41000,
+ISS-0069,INIT-053,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",High,In Progress,2025-12-15,239,Yusuf Vlach,28,55500,
+ISS-0070,INIT-053,Budget overspend against phase forecast,"Phase spend is running ahead of plan, driven by contractor day rates.",High,Resolved,2025-12-15,239,Freya Mendes,21,16000,
+ISS-0071,INIT-053,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,High,Blocked,2026-04-28,105,Priya Bramley,19,65500,
+ISS-0072,INIT-054,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Low,Open,2026-07-08,34,Hamish Sandison,0,1000,
+ISS-0073,INIT-054,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,Medium,Resolved,2026-04-01,132,Rohan Novak,1,11500,
+ISS-0074,INIT-054,Upstream dependency slipped,"An upstream initiative has moved its go-live, invalidating our start assumption.",Medium,Resolved,2026-03-02,162,Nuala Achebe,10,12500,RSK-0118
+ISS-0075,INIT-055,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,Critical,Open,2026-01-08,215,Isla Petrova,46,114000,
+ISS-0076,INIT-055,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,High,Open,2025-09-04,341,Maeve Menzies,13,24500,RSK-0120
+ISS-0077,INIT-055,Benefit baseline disputed by Finance,"Finance will not sign the baseline, so realised savings cannot yet be booked.",Medium,In Progress,2026-01-31,192,Clara Mehta,1,7500,
+ISS-0078,INIT-055,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,Medium,In Progress,2026-06-24,48,Isla Petrova,12,22000,
+ISS-0079,INIT-056,Data quality below migration threshold,Master records are failing validation at a rate above the agreed tolerance.,Medium,In Progress,2026-05-27,76,Zoya Halvorsen,3,21500,
+ISS-0080,INIT-056,Test environment unavailable,The shared pre-production environment is locked by another programme's cutover rehearsal.,Medium,In Progress,2026-05-30,73,Bjorn Farouk,8,4000,
+ISS-0081,INIT-058,Vendor invoice dispute blocking the next phase,A commercial disagreement over change-request pricing has paused the statement of work.,Medium,Open,2025-12-20,234,Erik Buchanan,10,12500,RSK-0129
+ISS-0082,INIT-058,Access provisioning delays,New joiners and vendor staff are waiting on system access and losing productive days.,Medium,Resolved,2025-12-24,230,Zoya Okonkwo,1,15500,RSK-0129

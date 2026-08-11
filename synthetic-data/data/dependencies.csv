@@ -1,0 +1,96 @@
+from_initiative,to_initiative,dependency_type,lag_days,criticality,notes
+INIT-001,INIT-005,Data,14,Soft,Cloud Migration Wave 1 - Non-Production consumes data produced by Enterprise Data Platform (Lakehouse) Build.
+INIT-001,INIT-022,Data,30,Hard,S&OP standardisation consumes harmonised demand and supply history from the lakehouse.
+INIT-001,INIT-025,Data,30,Soft,"Inventory optimisation is materially better with lakehouse history, but could start on extracts."
+INIT-001,INIT-026,Finish-to-Start,45,Hard,Enterprise Data Platform (Lakehouse) Build must complete before Warehouse Management System Upgrade can start.
+INIT-001,INIT-033,Data,45,Hard,The FP&A rebuild reads its actuals layer directly from the lakehouse.
+INIT-001,INIT-034,Technical Enabler,0,Hard,Insurance Programme Restructure cannot be built until the capability delivered by Enterprise Data Platform (Lakehouse) Build is available.
+INIT-001,INIT-042,Data,0,Hard,Segmentation and price elasticity models cannot be built before the customer data domain lands.
+INIT-001,INIT-059,Technical Enabler,0,Hard,Data governance controls are applied to the lakehouse; there is nothing to govern before it exists.
+INIT-002,INIT-009,Finish-to-Start,30,Hard,Order management cannot leave the mainframe until finance postings are served by the ERP.
+INIT-002,INIT-031,Technical Enabler,60,Hard,"The shared service centre operates on the consolidated finance module, not the old ledgers."
+INIT-002,INIT-033,Data,30,Hard,The forecasting rebuild depends on the consolidated chart of accounts.
+INIT-003,INIT-001,Data,14,Hard,Enterprise Data Platform (Lakehouse) Build consumes data produced by API Gateway & Integration Layer.
+INIT-003,INIT-023,Technical Enabler,45,Hard,Inbound Freight Cost Reduction cannot be built until the capability delivered by API Gateway & Integration Layer is available.
+INIT-003,INIT-040,Finish-to-Start,45,Hard,API Gateway & Integration Layer must complete before Overtime & Absence Management can start.
+INIT-003,INIT-043,Technical Enabler,0,Hard,The e-commerce channel calls pricing and stock through the API layer.
+INIT-003,INIT-049,Technical Enabler,14,Soft,Self-service portal services are exposed through the gateway.
+INIT-004,INIT-002,Data,30,Soft,ERP Finance Module Consolidation consumes data produced by Identity & Access Management Modernisation.
+INIT-004,INIT-008,Technical Enabler,20,Hard,Master Data Management - Customer & Product cannot be built until the capability delivered by Identity & Access Management Modernisation is available.
+INIT-004,INIT-010,Technical Enabler,30,Soft,Engineers authenticate to the mobility app through the new identity platform.
+INIT-004,INIT-015,Technical Enabler,0,Hard,Robotic Process Automation Factory cannot be built until the capability delivered by Identity & Access Management Modernisation is available.
+INIT-004,INIT-019,Data,60,Hard,Asset Utilisation & Fleet Telematics consumes data produced by Identity & Access Management Modernisation.
+INIT-004,INIT-056,Technical Enabler,30,Hard,SOX access-control remediation depends on the modernised role model.
+INIT-004,INIT-057,Technical Enabler,0,Hard,"Privacy controls (consent, subject access, least privilege) are built on the new IAM stack."
+INIT-005,INIT-006,Finish-to-Start,30,Hard,Production workloads only move once the non-production migration pattern is proven.
+INIT-005,INIT-007,Data,45,Soft,CRM Platform Replacement consumes data produced by Cloud Migration Wave 1 - Non-Production.
+INIT-005,INIT-012,Finish-to-Start,20,Hard,Cloud Migration Wave 1 - Non-Production must complete before Preventive Maintenance Programme Overhaul can start.
+INIT-005,INIT-036,Data,0,Hard,Frontline Hiring Funnel Redesign consumes data produced by Cloud Migration Wave 1 - Non-Production.
+INIT-005,INIT-039,Technical Enabler,0,Soft,Organisational Delayering & Span of Control cannot be built until the capability delivered by Cloud Migration Wave 1 - Non-Production is available.
+INIT-005,INIT-052,Technical Enabler,60,Soft,Application rationalisation decisions follow the cloud landing-zone standards.
+INIT-006,INIT-009,Technical Enabler,0,Hard,The replacement order service runs on the migrated production platform.
+INIT-007,INIT-046,Technical Enabler,30,Hard,Aftermarket quoting and entitlement run in the new CRM.
+INIT-007,INIT-049,Technical Enabler,0,Hard,The self-service portal is a front end onto CRM case and asset data.
+INIT-008,INIT-025,Data,0,Hard,Safety stock cannot be reset while the same product exists under four part numbers.
+INIT-008,INIT-046,Data,30,Soft,The aftermarket proposition needs a single view of installed base by customer.
+INIT-008,INIT-060,Data,30,Soft,Third-party risk scoring depends on a deduplicated supplier master.
+INIT-012,INIT-047,Technical Enabler,60,Hard,The subscription maintenance offer is only sellable once preventive maintenance is standardised.
+INIT-015,INIT-013,Technical Enabler,30,Soft,The contact centre redesign assumes RPA is handling back-office case volume.
+INIT-015,INIT-029,Data,5,Soft,Month-End Close Acceleration consumes data produced by Robotic Process Automation Factory.
+INIT-015,INIT-031,Finish-to-Start,30,Hard,The SSC target headcount assumes RPA has already removed the transactional volume.
+INIT-015,INIT-044,Finish-to-Start,0,Soft,Robotic Process Automation Factory must complete before Key Account Management Programme can start.
+INIT-019,INIT-011,Data,0,Hard,Route optimisation is fed by telematics location and utilisation data.
+INIT-020,INIT-060,Data,0,Soft,"Risk scoring is applied to the rationalised supplier base, not the old tail."
+INIT-021,INIT-014,Finish-to-Start,60,Hard,Depots cannot be closed until the redesigned network has absorbed their volume.
+INIT-021,INIT-045,Finish-to-Start,45,Soft,Nordics entry depends on the redesigned distribution footprint reaching the region.
+INIT-023,INIT-021,Data,0,Soft,The network redesign reuses the lane cost model produced by the freight renegotiation.
+INIT-025,INIT-037,Finish-to-Start,10,Hard,Inventory Optimisation & Safety Stock Reset must complete before Manager Capability Programme can start.
+INIT-026,INIT-021,Finish-to-Start,30,Hard,"Network redesign moves stock between sites, which the upgraded WMS must already support."
+INIT-026,INIT-024,Technical Enabler,60,Hard,Automation equipment integrates with the upgraded WMS; the current version has no API.
+INIT-027,INIT-024,Finish-to-Start,30,Hard,Automation cannot be commissioned until pack sizes and pallet patterns are standardised.
+INIT-028,INIT-031,Finish-to-Start,30,Soft,"Order-to-cash is the first process to transfer into the SSC, so it must be automated first."
+INIT-029,INIT-002,Resource,5,Hard,Shared Solution Architect capacity — the same team delivers both.
+INIT-029,INIT-017,Resource,30,Hard,Shared Process Engineer capacity — the same team delivers both.
+INIT-029,INIT-033,Data,30,Soft,A faster close is what makes a monthly rolling forecast possible at all.
+INIT-029,INIT-041,Data,60,Hard,Contractor to Permanent Conversion consumes data produced by Month-End Close Acceleration.
+INIT-030,INIT-032,Technical Enabler,45,Hard,Working Capital - Payables Terms Harmonisation cannot be built until the capability delivered by Procurement Source-to-Pay Redesign is available.
+INIT-030,INIT-060,Data,30,Hard,Supplier risk management consumes the new vendor master and onboarding workflow.
+INIT-032,INIT-011,Start-to-Start,20,Soft,Both initiatives mobilise together to share the design phase.
+INIT-034,INIT-035,Finish-to-Start,0,Soft,Insurance Programme Restructure must complete before HRIS Consolidation to Workday can start.
+INIT-034,INIT-060,Data,30,Soft,The restructured insurance programme sets the risk-transfer thresholds the framework applies.
+INIT-035,INIT-031,Data,45,Soft,The Finance SSC resourcing model draws establishment data from the consolidated HRIS.
+INIT-035,INIT-037,Data,30,Soft,Manager capability targeting uses Workday performance and org data.
+INIT-035,INIT-038,Technical Enabler,60,Hard,HR shared services runs on Workday case management; there is no platform before it.
+INIT-036,INIT-013,Finish-to-Start,30,Soft,The contact centre redesign depends on the reworked frontline hiring funnel to staff it.
+INIT-039,INIT-013,Finish-to-Start,30,Soft,The contact centre redesign inherits the new span-of-control standard.
+INIT-039,INIT-014,Finish-to-Start,60,Soft,Depot closures cannot be announced before the management structure is settled.
+INIT-039,INIT-031,Finish-to-Start,45,Hard,Finance SSC design assumes the delayered structure; building it first locks in the old shape.
+INIT-039,INIT-038,Finish-to-Start,30,Hard,Spans and layers must be agreed before the HR shared service model is designed around them.
+INIT-040,INIT-018,Data,0,Soft,Dispatch standardisation uses the new absence and availability data to plan shifts.
+INIT-041,INIT-027,Start-to-Start,20,Soft,Both initiatives mobilise together to share the design phase.
+INIT-041,INIT-051,Resource,0,Soft,Both draw on the same small people-and-property change team.
+INIT-042,INIT-046,Data,30,Soft,Aftermarket price points are set using the new segmentation and elasticity model.
+INIT-044,INIT-045,Finish-to-Start,45,Soft,Nordics entry leads with the named key accounts identified by the KAM programme.
+INIT-044,INIT-051,Finish-to-Start,0,Hard,Key Account Management Programme must complete before Real Estate Footprint Rationalisation can start.
+INIT-046,INIT-047,Finish-to-Start,30,Hard,Subscription pricing is built on the aftermarket proposition's service catalogue.
+INIT-050,INIT-020,Finish-to-Start,30,Hard,Category strategies from the indirect reset set the shortlist for supplier rationalisation.
+INIT-050,INIT-030,Finish-to-Start,30,Soft,The category reset defines the requirements the source-to-pay redesign must implement.
+INIT-050,INIT-041,Finish-to-Start,45,Hard,Indirect Spend Category Reset must complete before Contractor to Permanent Conversion can start.
+INIT-050,INIT-048,Data,20,Soft,Bid & Tender Win-Rate Improvement consumes data produced by Indirect Spend Category Reset.
+INIT-053,INIT-004,Finish-to-Start,10,Hard,Telecoms & Connectivity Renegotiation must complete before Identity & Access Management Modernisation can start.
+INIT-053,INIT-052,Resource,0,Soft,The same commercial team renegotiates telecoms and rationalises the application estate.
+INIT-055,INIT-003,Start-to-Start,20,Hard,Both initiatives mobilise together to share the design phase.
+INIT-055,INIT-016,Data,0,Hard,Quality Management System Harmonisation consumes data produced by Third-Party Advisory Spend Control.
+INIT-055,INIT-027,Data,0,Soft,Packaging & Consumables Standardisation consumes data produced by Third-Party Advisory Spend Control.
+INIT-055,INIT-028,Resource,0,Hard,Shared Business Analyst capacity — the same team delivers both.
+INIT-055,INIT-030,Data,0,Soft,Advisory spend approval rules are encoded into the new source-to-pay workflow.
+INIT-055,INIT-058,Data,0,Hard,Cyber Security Uplift - Endpoint & SIEM consumes data produced by Third-Party Advisory Spend Control.
+INIT-056,INIT-031,Finish-to-Start,30,Hard,"Control remediation must land before processes transfer, or the findings transfer with them."
+INIT-058,INIT-006,Finish-to-Start,0,Hard,Production workloads only migrate once endpoint and SIEM coverage extends to the cloud estate.
+INIT-058,INIT-016,Data,5,Soft,Quality Management System Harmonisation consumes data produced by Cyber Security Uplift - Endpoint & SIEM.
+INIT-058,INIT-043,Technical Enabler,30,Hard,A public-facing sales channel requires the uplifted monitoring and response baseline.
+INIT-058,INIT-050,Data,10,Soft,Indirect Spend Category Reset consumes data produced by Cyber Security Uplift - Endpoint & SIEM.
+INIT-058,INIT-053,Data,10,Soft,Telecoms & Connectivity Renegotiation consumes data produced by Cyber Security Uplift - Endpoint & SIEM.
+INIT-058,INIT-054,Resource,30,Soft,Shared Procurement Category Manager capacity — the same team delivers both.
+INIT-059,INIT-022,Data,30,Soft,S&OP inputs are certified through the governance framework.
+INIT-059,INIT-033,Data,0,Hard,Forecasting will not be trusted without the data quality framework behind it.
