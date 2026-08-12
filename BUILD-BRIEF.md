@@ -269,9 +269,13 @@ These are not edge cases. Each one has bitten somebody.
    every run. **If your code reports a cycle, the bug is in your code** — almost always a reversed
    edge direction (`from_initiative` is the predecessor, `to_initiative` is the successor) or a node
    visited twice in the traversal. Do not "fix" the data.
-6. **Realised benefit is essentially zero and that is the point.** `benefit_actual` sums to **$507**
-   across the whole file against **$84.3m** of claimed annual benefit. This is a finding to display,
-   not a bug to correct.
+6. **Benefit is back-loaded, and that is the point.** `benefit_actual` sums to **$507** across the
+   whole file — but that is a seven-month actuals window (2026-01..2026-07) in which only **1 of 60**
+   initiatives had reached its benefit-start month. Against the correctly phased plan for the same
+   period (`benefit_plan` summed 2026-01..2026-07 = **$648**) the portfolio is at **78.2%
+   attainment**. The real finding is the run-rate gap, not the actuals gap: **$84.3m promised versus
+   a $39.6m annual run-rate actually scheduled by end-2027 — 47% of the promise.** This is a finding
+   to display, not a bug to correct. **Never compare the $507 to the $84.3m** — see §11.
 7. **Blanks are meaningful elsewhere too.** `milestones.actual_date` blank = not yet complete.
    `issues.linked_risk_id` blank = no risk predicted it.
 
@@ -457,8 +461,9 @@ No initiative-level detail. A board does not want sixty bars; it wants the choic
 2. **Stacked value bands.** The `benefit_curve` as a stacked area chart over the 24-month window —
    `cost_reduction`, `cost_avoidance`, `revenue_growth`, `non_financial`, in that order, bottom to
    top, four distinguishable fills with a legend. Drawn as inline SVG by hand. The story it tells is
-   that the shape changes between scenarios, not just the height. Annotate the $507 actually realised
-   so far against the $84.3m claimed.
+   that the shape changes between scenarios, not just the height. Annotate the run-rate gap: $84.3m
+   promised against the $39.6m annual run-rate actually scheduled by end-2027 (47% of the promise),
+   with only $18.0m of benefit landing inside the 24-month window itself.
 3. **Top five decisions.** Five plain-English board decisions, each with what it unlocks and what it
    costs. Example of the register: *"Fund the Enterprise Data Platform ahead of the cost-out
    programme. $895k. Unblocks 28 initiatives carrying $38.6m of annual benefit. Delay it and
@@ -560,10 +565,27 @@ house style for hand-drawn SVG with no library, and `money(v)` (line 34) is the 
 
 Every number here was computed from the files in this repo. Put them on the screen.
 
+> ### ⚠️ DO NOT REINTRODUCE THE `$507` COMPARISON
+>
+> The line *"$84.3m claimed annual benefit against $507 actually banked"* was **retired as wrong** and
+> must not be put back in any file, slide, chart annotation or commit. It compares a steady-state
+> full-year run-rate ($84.3m, earned only once all 60 initiatives are finished and fully ramped)
+> against a single genuine cell from a seven-month actuals window in which only 1 of 60 initiatives
+> had reached its benefit-start month — overstating the gap by roughly five orders of magnitude, and
+> collapsing the moment anyone asks *"what period is the $84.3m over?"*. Use the like-for-like
+> run-rate framing immediately below instead.
+
 - **60 initiatives** in the inherited portfolio
 - **$95.3m approved** ($95,350,000) against **$101.7m forecast** ($101,743,000) — a $6.4m overrun
   before anything is resequenced
-- **$84.3m of claimed annual benefit** ($84,270,000) against **$507 actually banked** to date
+- **$84.3m promised versus a $39.6m annual run-rate actually scheduled by end-2027 — 47% of the
+  promise.** The exit run-rate ($39,643,848 = Dec-2027 `benefit_plan` × 12) is **47.0%** of the
+  $84,270,000 promised. Only **$18,004,782** of benefit lands inside the 24-month window
+  (2026-01..2027-12); **16 of 60** initiatives deliver zero benefit inside that window; and only
+  **25 of 60** reach full run-rate by 2027-12
+- Optional spend pairing: **$89,780,396** of planned in-window spend (`burn.csv` `planned_spend`,
+  2026-01..2027-12) against that $18.0m of in-window benefit — roughly **$5 spent per $1 of benefit
+  landed in-window**, with payback beyond 2027
 - **95 dependencies**, of which **70 cross function boundaries** and **3 are already violated**
 - **31 Green / 17 Amber / 12 Red**
 - **25 of 60 initiatives forecasting over budget** (using the >5% threshold the validator applies;

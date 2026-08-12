@@ -509,7 +509,7 @@ The one-page strategy the portfolio is supposed to deliver against.
 ## Things the field list will not tell you
 
 - **The as-of date is 2026-07.** In `burn.csv` and `benefits.csv`, 1,020 of 1,440 rows have blank actuals - those are future months, not missing data. Only `planned_spend`, `cumulative_planned`, `forecast_spend` and `benefit_plan` are populated across all 24 months.
-- **Realised benefit is essentially zero.** `benefit_actual` is 0 in 419 of the 420 past-month rows, with a single value of 507. Benefit is deliberately back-loaded into 2028.
+- **Realised benefit is essentially zero.** `benefit_actual` is 0 in 419 of the 420 past-month rows, with a single value of 507. Benefit is deliberately back-loaded into 2028. **Do not compare that 507 to the $84.3m of `annual_benefit_target`** - it is one cell from a seven-month actuals window in which only 1 of 60 initiatives had reached its benefit-start month, so the comparison is not like-for-like. Against the phased plan for the same period (`benefit_plan` summed 2026-01..2026-07 = 648) attainment is 78.2%. For a headline gap, use the run-rate framing in section 11 of `BUILD-BRIEF.md`.
 - **Two different boolean spellings.** `initiatives.is_regulatory` is `True`/`False`; `resources.over_allocated` is `TRUE`/`FALSE`.
 - **Blanks are meaningful.** `milestones.actual_date` is blank on 216 of 259 rows (not yet complete) and `issues.linked_risk_id` on 49 of 82 (no predicted risk).
 - **`benefit_start_month` is an offset** in months from the initiative's own start date, not a calendar month like the `month` columns.

@@ -25,8 +25,13 @@ from pptx.enum.text import PP_ALIGN, MSO_ANCHOR
 # $84.3m claimed annual benefit ...... sum(annual_benefit_target)               = 84,270,000
 # 77% Med/Low confidence ............. sum(annual_benefit_target) where value_confidence != High
 #                                      = 65,220,000 / 84,270,000
-# $18.8m spent / ~$0.5k banked ....... sum(actual_spend) and sum(benefit_actual) in
-#                                      data/burn.csv and data/benefits.csv (blank from 2026-08)
+# $39.6m run-rate by end-2027 ....... data/benefits.csv: sum(benefit_plan) where month = 2027-12,
+#                                      x 12 = 39,643,848 = 47.0% of 84,270,000. Only 18,004,782 of
+#                                      benefit lands inside 2026-01..2027-12; 16/60 initiatives
+#                                      deliver zero in-window; 25/60 reach full run-rate by 2027-12.
+#                                      DO NOT replace this with "$84.3m vs $507 banked" — that line
+#                                      was retired as wrong (annual run-rate vs a 7-month actuals
+#                                      cell). See section 11 of BUILD-BRIEF.md.
 # 95 dependencies / 70 cross-function  rowcount of data/dependencies.csv; cross = endpoints
 #                                      whose `function` in initiatives.csv differs (70/95 = 74%)
 # 3 violations, worst 716 days ....... data/dependency_conflicts.csv (INIT-039 -> INIT-031,
@@ -62,7 +67,7 @@ SUBTITLE = ("Turning 60 inherited initiatives, $95.3m of spend and 95 tangled de
 SECTIONS = [
     ("THE CHALLENGE", [
         "A new leader inherits **60 initiatives** across **8 functions** — no integrated roadmap, no agreed priorities",
-        "**$95.3m** approved, forecasting **$101.7m**; **$84.3m** claimed annual benefit, **~$0.5k** banked",
+        "**$95.3m** approved, forecasting **$101.7m**; **$84.3m** promised vs a **$39.6m** run-rate scheduled by end-2027 — **47%**",
         "**95** dependencies, **70** cross-function, in nobody's plan — **3** violated by up to **716 days**",
         "\"What happens first, and when does value land?\" takes **weeks** of PMO work — and arrives stale",
     ]),

@@ -214,9 +214,13 @@ Three components on this screen:
    then INIT-001 with 28 worth $38.6m.
 
 Also put these verified headline figures across the top of the page, from section 11 of the brief:
-60 initiatives; $95.3m approved vs $101.7m forecast; $84.3m claimed annual benefit against $507
-actually banked; 95 dependencies of which 70 cross functions and 3 are already violated;
-31 Green / 17 Amber / 12 Red; 25 of 60 forecasting over budget.
+60 initiatives; $95.3m approved vs $101.7m forecast; $84.3m promised versus a $39.6m annual run-rate
+actually scheduled by end-2027, 47% of the promise ($39,643,848 exit run-rate, with only $18,004,782
+of benefit landing inside the 24-month window); 95 dependencies of which 70 cross functions and 3 are
+already violated; 31 Green / 17 Amber / 12 Red; 25 of 60 forecasting over budget.
+
+Do NOT put back the old "$84.3m claimed annual benefit against $507 actually banked" line — it was
+retired as wrong. See the warning box in section 11 of BUILD-BRIEF.md for why.
 
 All charts must be inline SVG that you draw by hand. No chart library. No CDN script tags. No
 framework. Currency formatted as USD.
@@ -256,8 +260,9 @@ Three components:
 2. The stacked value bands. The benefit_curve as a stacked area chart across the 24-month window,
    bands bottom to top: cost_reduction, cost_avoidance, revenue_growth, non_financial. Four
    distinguishable fills with a legend. Inline SVG drawn by hand, no library. The point it makes is
-   that the SHAPE of value changes between scenarios, not just the height. Annotate the $507 actually
-   realised to date against the $84.3m claimed.
+   that the SHAPE of value changes between scenarios, not just the height. Annotate the run-rate gap:
+   $84.3m promised against the $39.6m annual run-rate actually scheduled by end-2027 (47% of the
+   promise), with only $18.0m of benefit landing inside the 24-month window itself.
 
 3. Top five board decisions. Five plain-English decisions, each with what it unlocks and what it
    costs. Use this as the register for the tone: "Fund the Enterprise Data Platform ahead of the
@@ -408,8 +413,9 @@ reads the repository as text. Plain words, no jargon, no bullet-point salad. Fou
    one that matters: the Enterprise Data Platform costs $895k and returns $70k a year, which puts it
    last on any naive ranking — but it gates 28 of the 60 initiatives carrying $38.6m of annual
    benefit. A 43x return that a spreadsheet would have cut. Then the portfolio picture: $95.3m
-   approved against $101.7m forecast, $84.3m of claimed annual benefit against $507 actually banked,
-   95 dependencies of which 70 cross functions and 3 are already violated, 25 of 60 initiatives
+   approved against $101.7m forecast, $84.3m promised versus a $39.6m annual run-rate actually
+   scheduled by end-2027 (47% of the promise, with only $18.0m of benefit landing inside the 24-month
+   window), 95 dependencies of which 70 cross functions and 3 are already violated, 25 of 60 initiatives
    forecasting over budget. Also state what the compliance rules buy: regulatory work can never be
    cut by a budget scenario, and regulatory breaches always sort above dollar-value breaches.
 
