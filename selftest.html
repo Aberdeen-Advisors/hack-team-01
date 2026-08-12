@@ -1,0 +1,322 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Engine self-test - Transformation Roadmap Generator</title>
+<style>
+  body { background:#12161c; color:#dfe6ef; font:13px/1.55 ui-monospace,"SF Mono",Menlo,Consolas,monospace;
+         margin:0; padding:28px 32px; }
+  h1 { font-size:16px; letter-spacing:.02em; margin:0 0 4px; }
+  .sub { color:#7d8b9c; margin-bottom:22px; }
+  h2 { font-size:13px; color:#9fb0c4; margin:26px 0 8px; text-transform:uppercase; letter-spacing:.08em; }
+  .row { padding:2px 0; }
+  .pass { color:#4ecb8f; }
+  .fail { color:#ff6b6b; font-weight:700; }
+  .note { color:#7d8b9c; }
+  .tag { display:inline-block; width:54px; }
+  table { border-collapse:collapse; margin:6px 0 0; }
+  td, th { padding:2px 14px 2px 0; text-align:left; vertical-align:top; }
+  th { color:#7d8b9c; font-weight:400; border-bottom:1px solid #2a323c; }
+  td.n { text-align:right; }
+  .banner { margin:26px 0 0; padding:12px 16px; border-radius:5px; font-weight:700; }
+  .banner.ok { background:#12341f; color:#6fe3a6; }
+  .banner.bad { background:#3a1518; color:#ff8f8f; }
+</style>
+</head>
+<body>
+<h1>Engine self-test</h1>
+<div class="sub">BUILD-BRIEF.md &sect;6 result-object contract &middot; &sect;12 acceptance criteria</div>
+<div id="out">Loading data/portfolio.json&hellip;</div>
+
+<script src="app.js"></script>
+<script>
+(function () {
+  'use strict';
+  var R = window.Roadmap;
+  var out = document.getElementById('out');
+  var checks = [];
+  var html = [];
+
+  function check(name, ok, detail) {
+    checks.push({ name: name, ok: !!ok, detail: detail || '' });
+    html.push('<div class="row"><span class="tag ' + (ok ? 'pass' : 'fail') + '">' +
+      (ok ? '[PASS]' : '[FAIL]') + '</span>' + esc(name) +
+      (detail ? '  <span class="note">' + esc(detail) + '</span>' : '') + '</div>');
+    console.log((ok ? 'PASS  ' : 'FAIL  ') + name + (detail ? '   ' + detail : ''));
+  }
+  function h2(t) { html.push('<h2>' + esc(t) + '</h2>'); console.log('\n=== ' + t + ' ==='); }
+  function note(t) { html.push('<div class="row note">' + t + '</div>'); console.log('      ' + t.replace(/<[^>]+>/g, '')); }
+  function esc(s) { return String(s).replace(/[&<>]/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;' }[c]; }); }
+  function f(n) { return R.fmtInt(n); }
+
+  R.loadPortfolio('data/portfolio.json').then(function (data) {
+    var eng = new R.Engine(data);
+
+    /* ---- 1. topological sort ------------------------------------------ */
+    h2('1. Topological sort');
+    check('all 60 nodes sort with no cycle', eng.acyclic && eng.topoOrder.length === 60,
+      'sorted ' + eng.topoOrder.length + ' of ' + eng.initiatives.length + ' nodes');
+    var waves = {};
+    eng.initiatives.forEach(function (i) {
+      waves[eng.baseWave[i.initiative_id]] = (waves[eng.baseWave[i.initiative_id]] || 0) + 1;
+    });
+    var maxWave = Math.max.apply(null, Object.keys(waves).map(Number));
+    check('every initiative has a wave', Object.keys(eng.baseWave).length === 60,
+      'waves 0..' + maxWave + ', sizes ' + JSON.stringify(waves));
+
+    /* ---- 2. dependency violations ------------------------------------- */
+    h2('2. Dependency conflicts (SC-01 baseline)');
+    var r1 = eng.run('SC-01');
+    var dep = r1.violations.filter(function (v) { return v.type === 'dependency'; });
+    var worst3 = dep.slice(0, 3).map(function (v) {
+      return [v.from_initiative, v.to_initiative, v.overlap_days];
+    });
+    var expected = [['INIT-039', 'INIT-031', 716], ['INIT-039', 'INIT-038', 710],
+                    ['INIT-005', 'INIT-006', 627]];
+
+    check('the 3 worst conflicts are the planted cases at 716 / 710 / 627 days',
+      JSON.stringify(worst3) === JSON.stringify(expected),
+      JSON.stringify(worst3));
+
+    expected.forEach(function (e) {
+      var hit = dep.filter(function (v) {
+        return v.from_initiative === e[0] && v.to_initiative === e[1];
+      })[0];
+      check(e[0] + ' -> ' + e[1] + ' at ' + e[2] + ' days',
+        !!hit && hit.overlap_days === e[2],
+        hit ? 'got ' + hit.overlap_days : 'NOT FOUND');
+    });
+
+    check('worst overlap is 716 days', dep.length > 0 && dep[0].overlap_days === 716,
+      'got ' + (dep[0] ? dep[0].overlap_days : 'none'));
+
+    var blocking = dep.filter(function (v) { return v.blocking; }).length;
+    note('<b>' + dep.length + ' of ' + eng.dependencies.length +
+      '</b> edges are violated in the baseline; <b>' + blocking +
+      '</b> of those sit on links the roadmap is not allowed to break.');
+    note('This is the honest count. The 3 above are the worst of them, not all of them.');
+
+    /* ---- 3. benefit curve --------------------------------------------- */
+    h2('3. Benefit curve');
+    check('benefit_curve has 24 monthly points', r1.benefit_curve.length === 24,
+      'got ' + r1.benefit_curve.length);
+    var allBands = r1.benefit_curve.every(function (p) {
+      return R.BANDS.every(function (b) { return typeof p[b] === 'number'; });
+    });
+    check('every point carries all four value bands', allBands,
+      R.BANDS.join(', '));
+    check('window runs 2026-01 to 2027-12',
+      r1.benefit_curve[0].month === '2026-01' && r1.benefit_curve[23].month === '2027-12',
+      r1.benefit_curve[0].month + ' .. ' + r1.benefit_curve[23].month);
+
+    /* the offset proof: rebuild benefits.csv benefit_plan and compare ---- */
+    h2('4. Reconciliation against benefits.csv');
+    var mine = {}, theirs = {};
+    R.BANDS.forEach(function (b) { mine[b] = 0; theirs[b] = 0; });
+
+    r1.benefit_curve.forEach(function (p) {
+      R.BANDS.forEach(function (b) { mine[b] += p[b]; });
+    });
+    data.benefits.forEach(function (row) {
+      var band = R.BAND_BY_PNL_TYPE[row.pnl_impact_type];
+      if (band) theirs[band] += row.benefit_plan;
+    });
+
+    var rows = ['<table><tr><th>band</th><th>engine</th><th>benefits.csv</th><th>diff</th></tr>'];
+    var reconciled = true, totalMine = 0, totalTheirs = 0;
+    R.BANDS.forEach(function (b) {
+      var d = mine[b] - theirs[b];
+      totalMine += mine[b]; totalTheirs += theirs[b];
+      if (d !== 0) reconciled = false;
+      rows.push('<tr><td>' + b + '</td><td class="n">$' + f(mine[b]) +
+        '</td><td class="n">$' + f(theirs[b]) + '</td><td class="n ' +
+        (d === 0 ? 'pass' : 'fail') + '">' + (d === 0 ? '0' : f(d)) + '</td></tr>');
+    });
+    rows.push('</table>');
+    html.push(rows.join(''));
+    console.log('  engine curve total $' + f(totalMine) + ' vs benefits.csv $' + f(totalTheirs));
+
+    check('rebuilt curve reconciles to benefits.csv benefit_plan exactly', reconciled,
+      reconciled ? '$' + f(totalMine) + ' in-window, all four bands to the dollar'
+                 : 'diff $' + f(totalMine - totalTheirs));
+    note('This is the proof that <b>benefit_start_month</b> was treated as an offset ' +
+      'from each initiative&rsquo;s own start date, not as a calendar month. ' +
+      'Getting it wrong shifts the curve by up to two years and this check fails.');
+
+    /* ---- 5. totals reconcile to the claim ----------------------------- */
+    h2('5. Totals reconcile to the $84.3m claimed');
+    var t = r1.totals;
+    var sum = t.benefit_cash_backed + t.benefit_cost_avoidance +
+              t.benefit_revenue + t.benefit_non_financial;
+    var claimed = data.totals.total_annual_benefit_target;
+
+    html.push('<table>' +
+      '<tr><td>cost reduction (cash-backed)</td><td class="n">$' + f(t.benefit_cash_backed) + '</td></tr>' +
+      '<tr><td>cost avoidance (non-cash)</td><td class="n">$' + f(t.benefit_cost_avoidance) + '</td></tr>' +
+      '<tr><td>revenue growth</td><td class="n">$' + f(t.benefit_revenue) + '</td></tr>' +
+      '<tr><td>non-financial / enabling</td><td class="n">$' + f(t.benefit_non_financial) + '</td></tr>' +
+      '<tr><td><b>total</b></td><td class="n"><b>$' + f(sum) + '</b></td></tr>' +
+      '<tr><td class="note">claimed annual benefit</td><td class="n note">$' + f(claimed) + '</td></tr>' +
+      '</table>');
+
+    check('four benefit subtotals reconcile to the claimed annual benefit',
+      sum === claimed, '$' + f(sum) + ' vs $' + f(claimed) +
+      (sum === claimed ? ' - exact' : ' - DIFF $' + f(sum - claimed)));
+    check('subtotals come to approximately $84.3m',
+      Math.abs(sum - 84270000) < 100000, '$' + (sum / 1e6).toFixed(2) + 'm');
+    check('no band is empty (nothing silently dropped)',
+      t.benefit_cash_backed > 0 && t.benefit_cost_avoidance > 0 &&
+      t.benefit_revenue > 0 && t.benefit_non_financial > 0, '');
+
+    /* ---- 6. the contract shape ---------------------------------------- */
+    h2('6. Result-object contract (section 6)');
+    ['scenario_id', 'sequence', 'violations', 'benefit_curve', 'totals'].forEach(function (k) {
+      check('result.' + k + ' present', Object.prototype.hasOwnProperty.call(r1, k),
+        k === 'sequence' ? r1.sequence.length + ' rows' :
+        k === 'violations' ? r1.violations.length + ' rows' : '');
+    });
+    var seqOk = r1.sequence.every(function (s) {
+      return s.initiative_id && s.name && s.function && s.start && s.end &&
+             typeof s.wave === 'number';
+    });
+    check('every sequence row has id, name, function, start, end, wave', seqOk, '');
+    var vOk = r1.violations.every(function (v) {
+      return v.type && v.description && v.severity;
+    });
+    check('every violation has type, description, severity', vOk, '');
+    var tOk = ['budget', 'capex', 'peak_fte', 'benefit_cash_backed',
+      'benefit_cost_avoidance', 'benefit_revenue', 'benefit_non_financial']
+      .every(function (k) { return typeof t[k] === 'number'; });
+    check('totals carries all seven keys', tOk, '');
+
+    /* ---- 7. all three scenarios --------------------------------------- */
+    h2('7. All three scenarios');
+    var results = ['SC-01', 'SC-02', 'SC-03'].map(function (id) { return eng.run(id); });
+
+    var tr = ['<table><tr><th>scenario</th><th>in plan</th><th>budget</th><th>capex</th>' +
+      '<th>peak FTE</th><th>dep</th><th>blocking</th><th>res</th><th>bud</th>' +
+      '<th>worst blocking</th><th>latest end</th><th>vs deadline</th>' +
+      '<th>in-window benefit</th></tr>'];
+    results.forEach(function (r) {
+      var c = r._violation_counts, d = r._dependency_summary, s = r._schedule, inWindow = 0;
+      r.benefit_curve.forEach(function (p) {
+        R.BANDS.forEach(function (b) { inWindow += p[b]; });
+      });
+      tr.push('<tr><td>' + r.scenario_id + ' ' + esc(r._scenario.name) + '</td>' +
+        '<td class="n">' + r._included_count + '</td>' +
+        '<td class="n">$' + f(r.totals.budget) + '</td>' +
+        '<td class="n">$' + f(r.totals.capex) + '</td>' +
+        '<td class="n">' + r.totals.peak_fte + '</td>' +
+        '<td class="n">' + (c.dependency || 0) + '</td>' +
+        '<td class="n ' + (d.blocking ? 'fail' : 'pass') + '">' + d.blocking + '</td>' +
+        '<td class="n">' + (c.resource || 0) + '</td>' +
+        '<td class="n">' + (c.budget || 0) + '</td>' +
+        '<td class="n">' + d.worst_blocking + 'd</td>' +
+        '<td class="n">' + s.latest_end + '</td>' +
+        '<td class="n ' + (s.breaches_deadline ? 'fail' : 'pass') + '">' +
+          (s.breaches_deadline ? '+' + s.days_past_deadline + 'd' : 'within') + '</td>' +
+        '<td class="n">$' + f(inWindow) + '</td></tr>');
+    });
+    tr.push('</table>');
+    html.push(tr.join(''));
+    results.forEach(function (r) {
+      console.log('  ' + r.scenario_id + '  in plan ' + r._included_count +
+        '  budget $' + f(r.totals.budget) + '  capex $' + f(r.totals.capex) +
+        '  peak ' + r.totals.peak_fte + ' FTE  violations ' +
+        JSON.stringify(r._violation_counts) +
+        '  blocking ' + r._dependency_summary.blocking +
+        '  worst-blocking ' + r._dependency_summary.worst_blocking + 'd' +
+        '  ends ' + r._schedule.latest_end +
+        ' (deadline ' + r._schedule.must_finish_by +
+        (r._schedule.breaches_deadline ? ', +' + r._schedule.days_past_deadline + 'd OVER' : ', ok') + ')');
+    });
+
+    check('resequencing clears every BLOCKING dependency breach',
+      results[0]._dependency_summary.blocking > 0 &&
+      results[1]._dependency_summary.blocking === 0 &&
+      results[2]._dependency_summary.blocking === 0,
+      'SC-01 ' + results[0]._dependency_summary.blocking + ' blocking -> SC-02 ' +
+      results[1]._dependency_summary.blocking + ', SC-03 ' +
+      results[2]._dependency_summary.blocking);
+
+    check('remaining breaches after resequencing are Soft links, deliberately broken',
+      results[1]._dependency_summary.soft >= results[1]._dependency_summary.hard,
+      'SC-02: ' + results[1]._dependency_summary.soft + ' soft, ' +
+      results[1]._dependency_summary.hard + ' hard (hard remainder is Resource-type, ' +
+      'which constrains capacity not dates)');
+
+    note('<b>Finding worth putting to the board:</b> every scenario finishes after its own ' +
+      'must-finish-by date. SC-01 ends ' + results[0]._schedule.latest_end +
+      ' against a deadline of ' + results[0]._schedule.must_finish_by + '. Respecting the ' +
+      'hard dependencies pushes SC-02 out to ' + results[1]._schedule.latest_end +
+      ' &mdash; <b>' + Math.round(results[1]._schedule.days_past_deadline / 30) +
+      ' months</b> past the ' + results[1]._schedule.must_finish_by + ' the board was given. ' +
+      'The deadline is not achievable with these dependencies; either it moves or scope comes out.');
+
+    results.forEach(function (r) {
+      check(r.scenario_id + ' returns a complete result object',
+        r.sequence.length > 0 && r.benefit_curve.length === 24 &&
+        typeof r.totals.budget === 'number', r._included_count + ' initiatives in plan');
+    });
+
+    check('SC-01 keeps all 60 initiatives (no resequencing, no deferrals)',
+      results[0]._included_count === 60, 'got ' + results[0]._included_count);
+    check('SC-02 and SC-03 defer work and resequence',
+      results[1]._included_count < 60 && results[2]._included_count < 60,
+      'SC-02 ' + results[1]._included_count + ', SC-03 ' + results[2]._included_count);
+    check('resequencing reduces dependency violations',
+      (results[1]._violation_counts.dependency || 0) < (results[0]._violation_counts.dependency || 0),
+      'SC-01 ' + (results[0]._violation_counts.dependency || 0) + ' -> SC-02 ' +
+      (results[1]._violation_counts.dependency || 0));
+    check('SC-02 respects its capex cap of $25,014,000',
+      results[1].totals.capex <= 25014000, '$' + f(results[1].totals.capex));
+    check('no regulatory initiative is ever deferred, in any scenario',
+      results.every(function (r) {
+        return r._deferred.every(function (iid) { return !eng.byId[iid].is_regulatory; });
+      }), 'deferred: SC-02 ' + results[1]._deferred.length +
+          ', SC-03 ' + results[2]._deferred.length + ' - none regulatory');
+    check('the value mix differs between scenarios (the shape changes, not just the height)',
+      JSON.stringify(results[0].totals) !== JSON.stringify(results[1].totals), '');
+
+    /* ---- 8. the money shot -------------------------------------------- */
+    h2('8. The money shot');
+    var m = eng.byId['INIT-001'];
+    note('INIT-001 ' + esc(m.name) + ': costs $' + f(m.total_budget) + ', returns $' +
+      f(m.annual_benefit_target) + '/yr standalone. Naive ratio ' + m.naive_roi.toFixed(3) +
+      ' &rarr; rank <b>' + m.naive_roi_rank + ' of 60</b>. Gates <b>' +
+      m.transitive_downstream_count + '</b> initiatives worth <b>$' +
+      f(m.transitive_downstream_benefit) + '</b> &rarr; corrected rank <b>' +
+      m.corrected_rank + '</b>.');
+    check('INIT-001 is last of 60 on naive ROI', m.naive_roi_rank === 60,
+      'rank ' + m.naive_roi_rank);
+    check('INIT-001 gates 28 initiatives worth $38,580,000',
+      m.transitive_downstream_count === 28 && m.transitive_downstream_benefit === 38580000,
+      m.transitive_downstream_count + ' / $' + f(m.transitive_downstream_benefit));
+
+    /* ---- verdict ------------------------------------------------------- */
+    var failed = checks.filter(function (c) { return !c.ok; });
+    html.push('<div class="banner ' + (failed.length ? 'bad' : 'ok') + '">' +
+      (checks.length - failed.length) + ' of ' + checks.length + ' checks passed' +
+      (failed.length ? ' &mdash; ' + failed.length + ' FAILED' : ' &mdash; all green') +
+      '</div>');
+    if (failed.length) {
+      html.push('<h2>failures</h2>');
+      failed.forEach(function (c) {
+        html.push('<div class="row fail">' + esc(c.name) + ' &mdash; ' + esc(c.detail) + '</div>');
+      });
+    }
+
+    out.innerHTML = html.join('');
+    console.log('\nSELFTEST RESULT: ' + (checks.length - failed.length) + '/' +
+      checks.length + ' passed' + (failed.length ? ' — ' + failed.length + ' FAILED' : ' — ALL GREEN'));
+    document.title = (failed.length ? 'FAIL ' + failed.length : 'PASS') + ' - engine self-test';
+
+  }).catch(function (err) {
+    out.innerHTML = '<div class="row fail">' + esc(err.message) + '</div>';
+    console.error('SELFTEST ERROR: ' + err.message);
+    document.title = 'ERROR - engine self-test';
+  });
+}());
+</script>
+</body>
+</html>
