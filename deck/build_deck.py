@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
 """
 Builds deck/transformation-roadmap-generator.pptx — the full Team 1 hackathon
-deck (slides 1-7) for the Transformation Roadmap Generator.
+deck (slides 1-8) for the Transformation Roadmap Generator.
 
 Slide 1 is regenerated from the SECTIONS/TITLE/SUBTITLE data in
-build_problem_slide.py so the two files can never drift; slides 2-7 are built
+build_problem_slide.py so the two files can never drift; slides 2-8 are built
 here in the same visual language (Calibri, navy/teal, panel cards).
 
 All figures trace to synthetic-data/ (USD). See the FIGURES block in
@@ -23,7 +23,7 @@ import sys
 from pptx import Presentation
 from pptx.util import Inches, Pt
 from pptx.dml.color import RGBColor
-from pptx.enum.text import MSO_ANCHOR
+from pptx.enum.text import MSO_ANCHOR, PP_ALIGN
 from pptx.enum.shapes import MSO_SHAPE
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -416,21 +416,92 @@ def slide_5(prs):
 
 
 # ---------------------------------------------------------------------------
-# SLIDE 6 — how it works
+# SLIDE 6 — how the dashboard is used
 # ---------------------------------------------------------------------------
 
 def slide_6(prs):
     slide = new_slide(prs)
     header(slide,
-           "How it works: AI at ingest, deterministic code at decision time",
-           "Re-run it and a judge gets the same answer, every time.",
-           eyebrow="ARCHITECTURE")
+           "How the dashboard is used",
+           "Three things a Chief Transformation Officer does with it in a single sitting.",
+           eyebrow="USING THE TOOL")
+
+    y, h, w = 1.68, 3.28, 4.02
+
+    card(slide, 0.55, y, w, h, "1.  EVALUATING TRADEOFFS", [
+        "Switch between **board scenarios** with one control",
+        "The **sequence**, the **conflicts** and the **benefit curve** all move together, side by side",
+        "Compare **\"fastest value\"** against **\"lowest risk\"** on screen",
+        "The choice gets **compared, not argued about**",
+    ], number=None)
+
+    card(slide, 4.66, y, w, h, "2.  PRIORITIZING AGAINST CONSTRAINTS", [
+        "Sequences against the **real caps in the data** — budget and capex caps, peak FTE caps, mandatory and deferred initiatives",
+        "Flags **4 violation types**: dependency, resource, budget, compliance",
+        "**Compliance sorts to the top** of the exception list",
+        "**Regulatory initiatives can never be deferred** by a scenario",
+    ], number=None)
+
+    card(slide, 8.77, y, 4.01, h, "3.  VALUE DELIVERED TO THE CLIENT", [
+        "A **defensible sequencing decision in minutes**, not weeks of PMO analysis",
+        "**Conflicts caught before money is committed**, not after",
+        "A clear answer for the board on **when benefit reaches the P&L**",
+    ], number=None, bar_color=NAVY, head_color=NAVY)
+
+    band = panel(slide, 0.55, 5.24, 12.23, 1.36, fill=RGBColor(0xEB, 0xF3, 0xF6), bar=False)
+    bb = slide.shapes.add_textbox(Inches(0.80), Inches(5.44), Inches(11.73), Inches(1.00))
+    btf = bb.text_frame
+    btf.word_wrap = True
+    btf.margin_left = btf.margin_right = btf.margin_top = btf.margin_bottom = 0
+    btf.vertical_anchor = MSO_ANCHOR.TOP
+    for i, line in enumerate([
+        "**One screen, one owner, one monthly cycle.** The CTO drives it in the board meeting; "
+        "the PMO lead re-runs it on every status report.",
+        "Nothing is hidden behind a model call — every ordering and every exception traces back to a row in the client's own data.",
+    ]):
+        p = btf.paragraphs[0] if i == 0 else btf.add_paragraph()
+        add_runs(p, line, 13, BODY)
+        p.space_after = Pt(5)
+        p.line_spacing = 0.98
+
+
+# ---------------------------------------------------------------------------
+# SLIDE 7 — end-to-end workflow / architecture
+# ---------------------------------------------------------------------------
+
+def slide_7(prs):
+    slide = new_slide(prs)
+    header(slide,
+           "The workflow, end to end: from ingestion to output",
+           "AI at ingest, deterministic code at decision time — re-run it and a judge gets the same answer, every time.",
+           eyebrow="WORKFLOW: INGESTION → OUTPUT")
 
     y, h = 2.00, 2.34
     xs = [0.55, 3.72, 6.89, 10.06]
     w = 2.72
 
-    flow_box(slide, xs[0], y, w, h, "1.  WHAT EXISTS TODAY", [
+    # step ribbon above the flow, so the left-to-right reading order is explicit
+    labels = ["STEP 1  ·  INGEST", "STEP 2  ·  EXTRACT", "STEP 3  ·  NORMALIZE", "STEP 4  ·  OUTPUT"]
+    for i, lab in enumerate(labels):
+        rb = slide.shapes.add_shape(RECT, Inches(xs[i]), Inches(1.62), Inches(w if i < 3 else 2.72), Inches(0.30))
+        rb.fill.solid()
+        rb.fill.fore_color.rgb = ACCENT
+        rb.line.fill.background()
+        rb.shadow.inherit = False
+        tb = slide.shapes.add_textbox(Inches(xs[i]), Inches(1.665), Inches(w), Inches(0.24))
+        tf = tb.text_frame
+        tf.word_wrap = False
+        tf.margin_left = tf.margin_right = tf.margin_top = tf.margin_bottom = 0
+        p = tf.paragraphs[0]
+        p.alignment = PP_ALIGN.CENTER
+        r = p.add_run()
+        r.text = lab
+        r.font.size = Pt(10.5)
+        r.font.bold = True
+        r.font.name = "Calibri"
+        r.font.color.rgb = WHITE
+
+    flow_box(slide, xs[0], y, w, h, "WHAT EXISTS TODAY", [
         "9 CSV extracts",
         "Prose business cases",
         "PMO status reports",
@@ -439,7 +510,7 @@ def slide_6(prs):
     ])
     arrow(slide, xs[0] + w + 0.10, y + h / 2 - 0.17)
 
-    flow_box(slide, xs[1], y, w, h, "2.  OFFLINE INGEST", [
+    flow_box(slide, xs[1], y, w, h, "OFFLINE INGEST", [
         "AI extraction of structured",
         "fields from prose",
         "+ normalization rules",
@@ -448,7 +519,7 @@ def slide_6(prs):
     ])
     arrow(slide, xs[1] + w + 0.10, y + h / 2 - 0.17)
 
-    flow_box(slide, xs[2], y, w, h, "3.  ONE DATA FILE", [
+    flow_box(slide, xs[2], y, w, h, "ONE DATA FILE", [
         "A single committed",
         "initiative model:",
         "cost, dates, benefit,",
@@ -458,7 +529,7 @@ def slide_6(prs):
     ], fill=RGBColor(0xEB, 0xF3, 0xF6))
     arrow(slide, xs[2] + w + 0.10, y + h / 2 - 0.17)
 
-    flow_box(slide, xs[3], y, w, h, "4.  IN THE BROWSER", [
+    flow_box(slide, xs[3], y, w, h, "IN THE BROWSER", [
         "Deterministic engine:",
         "topological sort +",
         "conflict detection",
@@ -476,10 +547,10 @@ def slide_6(prs):
 
 
 # ---------------------------------------------------------------------------
-# SLIDE 7 — Aberdeen Labs reusability
+# SLIDE 8 — Aberdeen Labs reusability
 # ---------------------------------------------------------------------------
 
-def slide_7(prs):
+def slide_8(prs):
     slide = new_slide(prs)
     header(slide,
            "A Labs accelerator, not a one-off demo",
@@ -526,7 +597,7 @@ def slide_7(prs):
 
 # ---------------------------------------------------------------------------
 
-BUILDERS = [slide_1, slide_2, slide_3, slide_4, slide_5, slide_6, slide_7]
+BUILDERS = [slide_1, slide_2, slide_3, slide_4, slide_5, slide_6, slide_7, slide_8]
 
 
 def build(path):
